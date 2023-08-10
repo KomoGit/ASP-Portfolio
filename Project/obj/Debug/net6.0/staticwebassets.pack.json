@@ -1,0 +1,241 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Project.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Project.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\css\\style.css.map",
+      "PackagePath": "staticwebassets\\css\\style.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\css\\style.scss",
+      "PackagePath": "staticwebassets\\css\\style.scss"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\about-dots.png",
+      "PackagePath": "staticwebassets\\images\\about-dots.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\about-img.png",
+      "PackagePath": "staticwebassets\\images\\about-img.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\about-img2.png",
+      "PackagePath": "staticwebassets\\images\\about-img2.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\call.png",
+      "PackagePath": "staticwebassets\\images\\call.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\client.png",
+      "PackagePath": "staticwebassets\\images\\client.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\envelope-white.png",
+      "PackagePath": "staticwebassets\\images\\envelope-white.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\fb.png",
+      "PackagePath": "staticwebassets\\images\\fb.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\footer-bg.png",
+      "PackagePath": "staticwebassets\\images\\footer-bg.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\hero-bg.png",
+      "PackagePath": "staticwebassets\\images\\hero-bg.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\info-fb.png",
+      "PackagePath": "staticwebassets\\images\\info-fb.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\info-linkedin.png",
+      "PackagePath": "staticwebassets\\images\\info-linkedin.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\info-twitter.png",
+      "PackagePath": "staticwebassets\\images\\info-twitter.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\info-youtube.png",
+      "PackagePath": "staticwebassets\\images\\info-youtube.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\insta.png",
+      "PackagePath": "staticwebassets\\images\\insta.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\instagram.png",
+      "PackagePath": "staticwebassets\\images\\instagram.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\left-angle.png",
+      "PackagePath": "staticwebassets\\images\\left-angle.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\linkedin.png",
+      "PackagePath": "staticwebassets\\images\\linkedin.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\location-white.png",
+      "PackagePath": "staticwebassets\\images\\location-white.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\location.png",
+      "PackagePath": "staticwebassets\\images\\location.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\mail.png",
+      "PackagePath": "staticwebassets\\images\\mail.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\menu.png",
+      "PackagePath": "staticwebassets\\images\\menu.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\next-white.png",
+      "PackagePath": "staticwebassets\\images\\next-white.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\next.png",
+      "PackagePath": "staticwebassets\\images\\next.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\phone.png",
+      "PackagePath": "staticwebassets\\images\\phone.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\play.png",
+      "PackagePath": "staticwebassets\\images\\play.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\prev-white.png",
+      "PackagePath": "staticwebassets\\images\\prev-white.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\prev.png",
+      "PackagePath": "staticwebassets\\images\\prev.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\quote.png",
+      "PackagePath": "staticwebassets\\images\\quote.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\right-angle.png",
+      "PackagePath": "staticwebassets\\images\\right-angle.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\s-1.png",
+      "PackagePath": "staticwebassets\\images\\s-1.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\s-2.png",
+      "PackagePath": "staticwebassets\\images\\s-2.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\s-3.png",
+      "PackagePath": "staticwebassets\\images\\s-3.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\s-4.png",
+      "PackagePath": "staticwebassets\\images\\s-4.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\s-5.png",
+      "PackagePath": "staticwebassets\\images\\s-5.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\search-icon.png",
+      "PackagePath": "staticwebassets\\images\\search-icon.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\shop-bg.jpg",
+      "PackagePath": "staticwebassets\\images\\shop-bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\slider-img.png",
+      "PackagePath": "staticwebassets\\images\\slider-img.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\t-1.png",
+      "PackagePath": "staticwebassets\\images\\t-1.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\t-2.png",
+      "PackagePath": "staticwebassets\\images\\t-2.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\t-3.png",
+      "PackagePath": "staticwebassets\\images\\t-3.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\telephone-white.png",
+      "PackagePath": "staticwebassets\\images\\telephone-white.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\twitter.png",
+      "PackagePath": "staticwebassets\\images\\twitter.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\user.png",
+      "PackagePath": "staticwebassets\\images\\user.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\work-i1.png",
+      "PackagePath": "staticwebassets\\images\\work-i1.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\work-i2.png",
+      "PackagePath": "staticwebassets\\images\\work-i2.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\images\\work-img.png",
+      "PackagePath": "staticwebassets\\images\\work-img.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\js\\custom.js",
+      "PackagePath": "staticwebassets\\js\\custom.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Project.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Project.props",
+      "PackagePath": "build\\Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Project.props",
+      "PackagePath": "buildMultiTargeting\\Project.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Project.props",
+      "PackagePath": "buildTransitive\\Project.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
