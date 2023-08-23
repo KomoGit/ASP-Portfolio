@@ -97,10 +97,17 @@
         <div class="section-header">
             <h2>Subscribe Our Newsletter</h2>
         </div>
-        <div class="form">
-            <input class="form-control" placeholder="Email here">
+@*       <div class="form">
+            <input asp-for="@Model.Subscriber.Email" class="form-control" placeholder="Email here">
             <button class="btn">Submit</button>
-        </div>
+       </div>*@
+        <form asp-controller="Newsletter" asp-action="Create" method="post">
+            <div class="form-group">
+                <input asp-for="Subscriber.Email" class="form-control" placeholder="Email here">
+                @*<span asp-validation-for="Subscriber.Email" class="text-danger"></span>     *@
+            </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
     </div>
 </div>
 <!-- Newsletter End -->
@@ -145,11 +152,10 @@
                             <p><i class="fa fa-phone-alt"></i>@Model.SiteContactDetails[0].PhoneNumber</p>
                             <p><i class="fa fa-envelope"></i>@Model.SiteContactDetails[0].Email</p>
                             <div class="footer-social">
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-youtube"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https:\\@Model.SiteContactDetails[0].Twitter"><i class="fab fa-twitter"></i></a>
+                                <a href="https:\\@Model.SiteContactDetails[0].Facebook"><i class="fab fa-facebook-f"></i></a>
+                                <a href="https:\\@Model.SiteContactDetails[0].Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="https:\\@Model.SiteContactDetails[0].LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                             </div>
                         </div>
                     </div>

@@ -1,7 +1,6 @@
 ﻿using KanunWebsite.Data;
 using KanunWebsite.ViewModels;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace KanunWebsite.Controllers
 {
@@ -18,6 +17,8 @@ namespace KanunWebsite.Controllers
             {
                 Blogs = _context.Blogs?.OrderByDescending(o => o.PublishDate).ToList(),
                 SiteContactDetails = _context.ContactDetails?.ToList(),
+                Users = _context.Users.Take(4).ToList(),
+                Titles = _context.Titles?.ToList(),
 
             };
             return View(home);

@@ -15,7 +15,7 @@ namespace KanunWebsite.Controllers
         {
             VMPractice practice = new()
             {
-
+                SiteContactDetails = _context.ContactDetails?.ToList(),
             };
             return View(practice);
         }

@@ -28,7 +28,6 @@ namespace KanunWebsite.Controllers
                 sub.Subscriber.SubscriptionDate = DateTime.Now;
                 _context.Subscribers!.Add(sub.Subscriber);
                 _context!.SaveChanges();
-        
             }
             return RedirectToAction("index", "home");
         }

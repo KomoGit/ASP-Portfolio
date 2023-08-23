@@ -17,7 +17,7 @@ namespace KanunWebsite.Controllers
         {
             VMCaseStudy caseStudy = new()
             {
-
+                SiteContactDetails = _context.ContactDetails?.ToList(),
             };
             return View(caseStudy);
         }

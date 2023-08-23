@@ -1611,32 +1611,36 @@ a:focus {
 }
 
 .newsletter input {
+    margin:auto;
+    text-align:center;
     height: 50px;
+    width: 550px;
     border: 2px solid #121518;
     border-radius: 0;
 }
 
-.newsletter .btn {
-    position: absolute;
-    top: 5px;
-    right: 5px;
-    height: 40px;
-    padding: 8px 20px;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: uppercase;
-    color: #aa9166;
-    background: #121518;
-    border-radius: 0;
-    border: 2px solid #aa9166;
-    transition: .3s;
-}
+    .newsletter .btn {
+        position: center;
+        top: 5px;
+        right: 5px;
+        height: 40px;
+        padding: 8px 20px;
+        font-size: 14px;
+        font-weight: 500;
+        text-transform: uppercase;
+        color: #aa9166;
+        background: #121518;
+        border-radius: 0;
+        border: 2px solid #aa9166;
+        transition: .3s;
+        display: block;
+        margin: 0 auto;
+    }
 
 .newsletter .btn:hover {
     color: #121518;
     background: #aa9166;
 }
-
 
 /*******************************/
 /********* Footer CSS **********/
