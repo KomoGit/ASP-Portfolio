@@ -1,0 +1,197 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\KanunWebsite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\KanunWebsite.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\img\\about.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\img\\blog-3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\carousel-3.jpg",
+      "PackagePath": "staticwebassets\\img\\carousel-3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\faqs.jpg",
+      "PackagePath": "staticwebassets\\img\\faqs.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\feature.jpg",
+      "PackagePath": "staticwebassets\\img\\feature.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\portfolio-1.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio-1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\portfolio-2.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio-2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\portfolio-3.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio-3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\portfolio-4.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio-4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\portfolio-5.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio-5.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\portfolio-6.jpg",
+      "PackagePath": "staticwebassets\\img\\portfolio-6.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\single.jpg",
+      "PackagePath": "staticwebassets\\img\\single.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\team-1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\team-2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\team-3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\team-4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\isotope\\isotope.pkgd.js",
+      "PackagePath": "staticwebassets\\lib\\isotope\\isotope.pkgd.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\isotope\\isotope.pkgd.min.js",
+      "PackagePath": "staticwebassets\\lib\\isotope\\isotope.pkgd.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\wwwroot\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.KanunWebsite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.KanunWebsite.props",
+      "PackagePath": "build\\KanunWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.KanunWebsite.props",
+      "PackagePath": "buildMultiTargeting\\KanunWebsite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.KanunWebsite.props",
+      "PackagePath": "buildTransitive\\KanunWebsite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
