@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VoiP/UiK/jdx5z/jvcVKnov+jktBPRLwALqm0TAAk0S6RN29mYnHAiKbgbw84ImPRyPByXHIY+Q/U/7O0cIzcQ==",
+  "dgSpecHash": "ROa3JnG+17lC6ENDIa2pXntYFWRuyW9CFFzyvXG5rURG4VBUCopCmA5SAaY7pGSOe+Od/k0r4qGLLRdvjcLo0A==",
   "success": true,
-  "projectFilePath": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\KanunWebsite.csproj",
+  "projectFilePath": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\KanunWebsite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Elnur\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Elnur\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

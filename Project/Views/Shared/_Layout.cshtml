@@ -40,7 +40,7 @@
                         <p>Opening Hour Mon - Fri</p>
                     </div>
                     <div class="text">
-                        <h2>+123 456 7890</h2>
+                        <h2>@Model.!SiteContactDetails[0].PhoneNumber</h2>
                         <p>Call Us For Free Consultation</p>
                     </div>
                     <div class="social">
@@ -141,9 +141,9 @@
                     <div class="col-md-6 col-lg-4">
                         <div class="footer-contact">
                             <h2>Get In Touch</h2>
-                            <p><i class="fa fa-map-marker-alt"></i>123 Street, New York, USA</p>
-                            <p><i class="fa fa-phone-alt"></i>+012 345 67890</p>
-                            <p><i class="fa fa-envelope"></i>info@example.com</p>
+                            <p><i class="fa fa-map-marker-alt"></i>@Model.!SiteContactDetails[0].Address</p>
+                            <p><i class="fa fa-phone-alt"></i>@Model.!SiteContactDetails[0].PhoneNumber</p>
+                            <p><i class="fa fa-envelope"></i>@Model!.!SiteContactDetails[0].Email</p>
                             <div class="footer-social">
                                 <a href=""><i class="fab fa-twitter"></i></a>
                                 <a href=""><i class="fab fa-facebook-f"></i></a>

@@ -3516,11 +3516,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\KanunWebsite.csproj",
+      "projectUniqueName": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\KanunWebsite.csproj",
       "projectName": "KanunWebsite",
-      "projectPath": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\KanunWebsite.csproj",
+      "projectPath": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\KanunWebsite.csproj",
       "packagesPath": "C:\\Users\\Elnur\\.nuget\\packages\\",
-      "outputPath": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 2\\KanunWebsite\\obj\\",
+      "outputPath": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Elnur\\AppData\\Roaming\\NuGet\\NuGet.Config",
