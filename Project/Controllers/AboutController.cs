@@ -17,6 +17,8 @@ namespace KanunWebsite.Controllers
         {
             VMAbout about = new()
             {
+                Users = _context.Users?.OrderBy(u => u.FullName).ToList(),
+                Titles = _context.Titles?.ToList(),
                 SiteContactDetails = _context.ContactDetails?.ToList(),
             };
             return View(about);

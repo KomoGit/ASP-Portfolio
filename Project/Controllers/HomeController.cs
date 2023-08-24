@@ -17,9 +17,9 @@ namespace KanunWebsite.Controllers
             {
                 Blogs = _context.Blogs?.OrderByDescending(o => o.PublishDate).ToList(),
                 SiteContactDetails = _context.ContactDetails?.ToList(),
-                Users = _context.Users.Take(4).ToList(),
+                Users = _context.Users?.OrderBy(u => u.FullName).Take(4).ToList(),
                 Titles = _context.Titles?.ToList(),
-
+                Testimonials = _context.Testimonials?.OrderBy(t => t.Fullname).ToList(),
             };
             return View(home);
         }

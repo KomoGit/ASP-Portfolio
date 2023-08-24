@@ -35,7 +35,7 @@
                         <h2>Contact Us</h2>
                     </div>
                     <div class="col-12">
-                        <a href="">Home</a>
+                        <a asp-controller="home" asp-action="index">Home</a>
                         <a href="">Contact Us</a>
                     </div>
                 </div>
@@ -55,21 +55,21 @@
                                 <i class="fa fa-map-marker-alt"></i>
                                 <div class="contact-text">
                                     <h2>Location</h2>
-                                    <p>123 Street, New York, USA</p>
+                                    <p>@Model.SiteContactDetails[0].Address</p>
                                 </div>
                             </div>
                             <div class="contact-item">
                                 <i class="fa fa-phone-alt"></i>
                                 <div class="contact-text">
                                     <h2>Phone</h2>
-                                    <p>+012 345 67890</p>
+                                    <p>@Model.SiteContactDetails[0].PhoneNumber</p>
                                 </div>
                             </div>
                             <div class="contact-item">
                                 <i class="fa fa-envelope"></i>
                                 <div class="contact-text">
                                     <h2>Email</h2>
-                                    <p>info@example.com</p>
+                                    <p>@Model.SiteContactDetails[0].Email</p>
                                 </div>
                             </div>
                         </div>

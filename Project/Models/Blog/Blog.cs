@@ -7,7 +7,7 @@ namespace KanunWebsite.Models.Blog
     {
         #region Title
         [Required]
-        [Column(TypeName = "ntext")]
+        [Column(TypeName = "nvarchar")]
         [MaxLength(250, ErrorMessage = "Cannot be more than 250")]
         [MinLength(50, ErrorMessage = "Cannot be less than 50")]
         public string? Title { get; set; }

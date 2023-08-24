@@ -15,7 +15,8 @@ namespace KanunWebsite.Controllers
         {
             VMAttorneys team = new()
             {
-                Users = _context.Users?.ToList(),
+                Users = _context.Users?.OrderBy(u => u.FullName).ToList(),
+                Titles = _context.Titles?.ToList(),
                 SiteContactDetails = _context.ContactDetails?.ToList(),
             };
             return View(team);

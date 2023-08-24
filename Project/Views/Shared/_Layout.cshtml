@@ -97,14 +97,10 @@
         <div class="section-header">
             <h2>Subscribe Our Newsletter</h2>
         </div>
-@*       <div class="form">
-            <input asp-for="@Model.Subscriber.Email" class="form-control" placeholder="Email here">
-            <button class="btn">Submit</button>
-       </div>*@
         <form asp-controller="Newsletter" asp-action="Create" method="post">
             <div class="form-group">
                 <input asp-for="Subscriber.Email" class="form-control" placeholder="Email here">
-                @*<span asp-validation-for="Subscriber.Email" class="text-danger"></span>     *@
+                <span asp-validation-for="Subscriber.Email" class="text-danger"></span>
             </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
         </form>
@@ -139,7 +135,7 @@
                         <div class="footer-link">
                             <h2>Useful Pages</h2>
                             <a asp-controller="about" asp-action="index">About Us</a>
-                            <a asp-controller="pratice" asp-action="index">Practices</a>
+                            <a asp-controller="practice" asp-action="index">Practices</a>
                             <a asp-controller="team" asp-action="index">Attorneys</a>
                             <a asp-controller="casestudies" asp-action="index">Case Studies</a>
                             <a asp-controller="contact" asp-action="index">Contact</a>
