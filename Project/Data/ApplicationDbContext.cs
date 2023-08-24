@@ -17,5 +17,6 @@ namespace KanunWebsite.Data
         public DbSet<Category>? Categories { get; set; }        
         public DbSet<ContactDetails>? ContactDetails { get; set; }
         public DbSet<Testimonial>? Testimonials { get; set; }
+        public DbSet<ContactInquiry>? Inquiries { get; set; }
     }
 }

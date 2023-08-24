@@ -19,5 +19,21 @@ namespace KanunWebsite.Controllers
             };
             return View(about);
         }
+
+        public IActionResult Create(VMContact inq)
+        {
+            Console.WriteLine("McRib Laser Activate!");
+            if (ModelState.IsValid)
+            {
+                if (inq.Inquiry == null)
+                {
+                    throw new Exception("Inquiry cannot be null!");
+                }
+                inq.Inquiry.Date = DateTime.Now;
+                _context.Inquiries!.Add(inq.Inquiry);
+                _context!.SaveChanges();
+            }
+            return RedirectToAction("index", "contact");
+        }
     }
 }
