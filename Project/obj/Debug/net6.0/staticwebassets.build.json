@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NQtyzgbQm37AeuvfXhWPYN+sSmVPVHUaCZMc157pi2k=",
+  "Hash": "HHsIuWVF6D18WO99RMbhsAm+NIo+0z/vrFXah4cKTfI=",
   "Source": "KanunWebsite",
   "BasePath": "_content/KanunWebsite",
   "Mode": "Default",
@@ -134,6 +134,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\blog-3.jpg"
+    },
+    {
+      "Identity": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\img\\blog-mcrib.jpg",
+      "SourceId": "KanunWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\",
+      "BasePath": "_content/KanunWebsite",
+      "RelativePath": "img/blog-mcrib.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blog-mcrib.jpg"
+    },
+    {
+      "Identity": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\img\\blog-mcrib.png",
+      "SourceId": "KanunWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\",
+      "BasePath": "_content/KanunWebsite",
+      "RelativePath": "img/blog-mcrib.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\blog-mcrib.png"
     },
     {
       "Identity": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\img\\carousel-1.jpg",

@@ -22,7 +22,6 @@ namespace KanunWebsite.Controllers
 
         public IActionResult Create(VMContact inq)
         {
-            Console.WriteLine("McRib Laser Activate!");
             if (ModelState.IsValid)
             {
                 if (inq.Inquiry == null)

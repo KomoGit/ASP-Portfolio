@@ -9,7 +9,7 @@ namespace KanunWebsite.Models
     {
         [Required]
         [MaxLength(50, ErrorMessage = "Cannot exceed 50 letters.")]
-        [MinLength(10, ErrorMessage = "Cannot be less than 10 letters.")]
+        [MinLength(5, ErrorMessage = "Cannot be less than 10 letters.")]
         public string? Fullname { get; set; }
         [Required]
         [EmailAddress]

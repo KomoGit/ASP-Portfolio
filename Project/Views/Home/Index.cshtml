@@ -420,7 +420,7 @@
                             <p>
                                 @blog.Description
                             </p>
-                            <a class="btn" asp-controller="blog" asp-action="index/@blog.Id">Read More <i class="fa fa-angle-right"></i></a>
+                            <a class="btn" asp-controller="Blog" asp-action="Details" asp-route-id="@blog.Id">Read More <i class="fa fa-angle-right"></i></a>
                         </div>
                     }      
                 </div>

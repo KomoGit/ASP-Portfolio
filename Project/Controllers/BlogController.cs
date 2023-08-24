@@ -11,6 +11,7 @@ namespace KanunWebsite.Controllers
         {
             _context = context;
         }
+
         public IActionResult Index()
         {
             VMBlog blog = new()
@@ -19,6 +20,16 @@ namespace KanunWebsite.Controllers
                 SiteContactDetails = _context.ContactDetails?.ToList(),
                 Users = _context.Users?.OrderBy(u => u.FullName).Take(4).ToList(),
                 Titles = _context.Titles?.ToList(),
+            };
+            return View(blog);
+        }
+
+        public IActionResult Details(int id)
+        {
+            VMBlog blog = new()
+            {
+                Blogs = _context.Blogs?.Where(b => b.Id == id).ToList(),
+                SiteContactDetails = _context.ContactDetails?.ToList(),
             };
             return View(blog);
         }
