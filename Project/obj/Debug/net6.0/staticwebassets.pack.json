@@ -89,6 +89,10 @@
       "PackagePath": "staticwebassets\\img\\team-4.jpg"
     },
     {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\img\\team-sins.png",
+      "PackagePath": "staticwebassets\\img\\team-sins.png"
+    },
+    {
       "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\img\\testimonial-1.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-1.jpg"
     },
@@ -103,6 +107,18 @@
     {
       "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\img\\testimonial-4.jpg",
       "PackagePath": "staticwebassets\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\img\\testimonial-adolf.png",
+      "PackagePath": "staticwebassets\\img\\testimonial-adolf.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\img\\testimonial-retard.png",
+      "PackagePath": "staticwebassets\\img\\testimonial-retard.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\img\\testimonial-sex.png",
+      "PackagePath": "staticwebassets\\img\\testimonial-sex.png"
     },
     {
       "Id": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\js\\main.js",

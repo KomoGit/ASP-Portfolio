@@ -16,6 +16,7 @@ namespace KanunWebsite.Controllers
             VMHome home = new()
             {
                 Blogs = _context.Blogs?.OrderByDescending(o => o.PublishDate).ToList(),
+                Categories = _context.Categories?.ToList(),
                 SiteContactDetails = _context.ContactDetails?.ToList(),
                 Users = _context.Users?.OrderBy(u => u.FullName).Take(4).ToList(),
                 Titles = _context.Titles?.ToList(),
