@@ -11,5 +11,6 @@ namespace KanunWebsite.ViewModels
         public List<User>? Users { get; set; }
         public List<Title>? Titles { get; set; }
         public List<ContactDetails>? SiteContactDetails { get; set; }
+
     }
 }

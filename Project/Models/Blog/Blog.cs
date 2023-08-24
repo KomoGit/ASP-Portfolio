@@ -38,6 +38,7 @@ namespace KanunWebsite.Models.Blog
         public int CategoryId { get; set; }
         public Category? Category { get; set; }
         public DateTime PublishDate { get; set; }
+        public bool IsHidden { get; set; } = false;
         #endregion
     }
 }

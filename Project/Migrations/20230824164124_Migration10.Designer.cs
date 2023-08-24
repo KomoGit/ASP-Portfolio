@@ -4,6 +4,7 @@ using KanunWebsite.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KanunWebsite.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230824164124_Migration10")]
+    partial class Migration10
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -71,7 +74,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Blogs", (string)null);
+                    b.ToTable("Blogs");
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.Blog.Category", b =>
@@ -89,7 +92,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.ContactDetails", b =>
@@ -137,7 +140,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ContactDetails", (string)null);
+                    b.ToTable("ContactDetails");
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.ContactInquiry", b =>
@@ -173,7 +176,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Inquiries", (string)null);
+                    b.ToTable("Inquiries");
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.FAQ", b =>
@@ -199,7 +202,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("FAQs", (string)null);
+                    b.ToTable("FAQs");
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.NewsletterSubscriber", b =>
@@ -218,7 +221,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Subscribers", (string)null);
+                    b.ToTable("Subscribers");
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.Testimonial", b =>
@@ -251,7 +254,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Testimonials", (string)null);
+                    b.ToTable("Testimonials");
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.Title", b =>
@@ -269,7 +272,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Titles", (string)null);
+                    b.ToTable("Titles");
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.User", b =>
@@ -328,7 +331,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasIndex("TitleId");
 
-                    b.ToTable("Users", (string)null);
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.Blog.Blog", b =>

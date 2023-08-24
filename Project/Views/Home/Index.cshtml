@@ -282,7 +282,7 @@
                     <h2>Meet Our Expert Attorneys</h2>
                 </div>
                 <div class="row">
-                    <partial name="~/Views/Shared/TeamPartialView.cshtml"/>
+                    <partial name="~/Views/Shared/TeamPartialView.cshtml" />
                 </div>
             </div>
         </div>
@@ -298,22 +298,25 @@
                     </div>
                     <div class="col-md-7">
                         <div class="section-header">
-                            <h2>Have A Questions?</h2>
+                            <h2>Have Questions?</h2>
                         </div>
                         <div id="accordion">
-                            <div class="card">
-                                <div class="card-header">
-                                    <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="true">
-                                        <span>1</span> Lorem ipsum dolor sit amet?
-                                    </a>
-                                </div>
-                                <div id="collapseOne" class="collapse show" data-parent="#accordion">
-                                    <div class="card-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                            @foreach (FAQ questions in Model.FAQs)
+                            {
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="true">
+                                            <span>1</span> Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="card">
+                            }   
+                            @*<div class="card">
                                 <div class="card-header">
                                     <a class="card-link" data-toggle="collapse" href="#collapseTwo">
                                         <span>2</span> Lorem ipsum dolor sit amet?
@@ -360,9 +363,9 @@
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
                                     </div>
                                 </div>
-                            </div>
+                            </div>*@
                         </div>
-                        <a class="btn" href="">Ask more</a>
+                        <a class="btn" asp-controller="contact" asp-action="index">Ask more</a>
                     </div>
                 </div>
             </div>
@@ -394,38 +397,41 @@
                                 </div>
                             </div>
                         </div>
-                    }                 
+                    }
                 </div>
             </div>
         </div>
         <!-- Testimonial End -->
         <!-- Blog Start -->
-        <div class="blog">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Latest From Blog</h2>
-                </div>
-                <div class="owl-carousel blog-carousel">
-                    @foreach (Blog blog in Model.Blogs)
+            <div class="blog">
+                <div class="container">
+                    <div class="section-header">
+                    @if(Model.Blogs.Count != 0)
                     {
-                        <div class="blog-item">
-                            <img src="img/@blog.PreviewImage" alt="Blog">
-                            <h3>@blog.Title</h3>
-                            <div class="meta">
-                                <i class="fa fa-list-alt"></i>
-                                <a href="">@blog.Category.Name</a>
-                                <i class="fa fa-calendar-alt"></i>
-                                <p>@blog.PublishDate.ToString("dd-MM-yyyy")</p>
+                        <h2>Latest From Blog</h2>
+                    }  
+                    </div>
+                    <div class="owl-carousel blog-carousel">
+                        @foreach (Blog blog in Model.Blogs)
+                        {
+                            <div class="blog-item">
+                                <img src="img/@blog.PreviewImage" alt="Blog">
+                                <h3>@blog.Title</h3>
+                                <div class="meta">
+                                    <i class="fa fa-list-alt"></i>
+                                    <a href="">@blog.Category.Name</a>
+                                    <i class="fa fa-calendar-alt"></i>
+                                    <p>@blog.PublishDate.ToString("dd-MM-yyyy")</p>
+                                </div>
+                                <p>
+                                    @blog.Description
+                                </p>
+                                <a class="btn" asp-controller="Blog" asp-action="Details" asp-route-id="@blog.Id">Read More <i class="fa fa-angle-right"></i></a>
                             </div>
-                            <p>
-                                @blog.Description
-                            </p>
-                            <a class="btn" asp-controller="Blog" asp-action="Details" asp-route-id="@blog.Id">Read More <i class="fa fa-angle-right"></i></a>
-                        </div>
-                    }      
+                        }
+                    </div>
                 </div>
             </div>
-        </div>
         <!-- Blog End -->
         <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
         <!-- JavaScript Libraries -->

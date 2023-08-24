@@ -16,7 +16,7 @@ namespace KanunWebsite.Controllers
         {
             VMBlog blog = new()
             {
-                Blogs = _context.Blogs?.OrderByDescending(o => o.PublishDate).ToList(),
+                Blogs = _context.Blogs?.Where(b => !b.IsHidden).OrderByDescending(b => b.PublishDate).ToList(),
                 SiteContactDetails = _context.ContactDetails?.ToList(),
                 Users = _context.Users?.OrderBy(u => u.FullName).Take(4).ToList(),
                 Titles = _context.Titles?.ToList(),
