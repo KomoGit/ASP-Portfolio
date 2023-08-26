@@ -15,12 +15,13 @@ namespace KanunWebsite.Controllers
         {
             VMHome home = new()
             {
-                Blogs = _context.Blogs?.Where(b => !b.IsHidden).OrderByDescending(b => b.PublishDate).ToList(),
+                Blogs = _context.Blogs?.Where(b => !b.IsHidden).OrderByDescending(b => b.PublishDate).Take(3).ToList(),
                 Categories = _context.Categories?.ToList(),
                 SiteContactDetails = _context.ContactDetails?.ToList(),
                 Users = _context.Users?.OrderBy(u => u.FullName).Take(4).ToList(),
                 Titles = _context.Titles?.ToList(),
                 Testimonials = _context.Testimonials?.OrderBy(t => t.Fullname).ToList(),
+                FAQs = _context.FAQs?.Where(f => !f.IsHidden).ToList(),
             };
             return View(home);
         }

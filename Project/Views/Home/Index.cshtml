@@ -301,69 +301,21 @@
                             <h2>Have Questions?</h2>
                         </div>
                         <div id="accordion">
-                            @foreach (FAQ questions in Model.FAQs)
+                            @for (int i = 0; i < Model.FAQs.Count; i++)
                             {
                                 <div class="card">
                                     <div class="card-header">
-                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="true">
-                                            <span>1</span> Lorem ipsum dolor sit amet?
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#@Model.FAQs[i].CardId" aria-expanded="true">
+                                            <span>@(i + 1)</span> @Model.FAQs[i].Question
                                         </a>
                                     </div>
-                                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                    <div id="@Model.FAQs[i].CardId" class="collapse show" data-parent="#accordion">
                                         <div class="card-body">
-                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                            @Model.FAQs[i].Answer
                                         </div>
                                     </div>
                                 </div>
-                            }   
-                            @*<div class="card">
-                                <div class="card-header">
-                                    <a class="card-link" data-toggle="collapse" href="#collapseTwo">
-                                        <span>2</span> Lorem ipsum dolor sit amet?
-                                    </a>
-                                </div>
-                                <div id="collapseTwo" class="collapse" data-parent="#accordion">
-                                    <div class="card-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header">
-                                    <a class="card-link" data-toggle="collapse" href="#collapseThree">
-                                        <span>3</span> Lorem ipsum dolor sit amet?
-                                    </a>
-                                </div>
-                                <div id="collapseThree" class="collapse" data-parent="#accordion">
-                                    <div class="card-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header">
-                                    <a class="card-link" data-toggle="collapse" href="#collapseFour">
-                                        <span>4</span> Lorem ipsum dolor sit amet?
-                                    </a>
-                                </div>
-                                <div id="collapseFour" class="collapse" data-parent="#accordion">
-                                    <div class="card-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card">
-                                <div class="card-header">
-                                    <a class="card-link" data-toggle="collapse" href="#collapseFive">
-                                        <span>5</span> Lorem ipsum dolor sit amet?
-                                    </a>
-                                </div>
-                                <div id="collapseFive" class="collapse" data-parent="#accordion">
-                                    <div class="card-body">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
-                                    </div>
-                                </div>
-                            </div>*@
+                            }
                         </div>
                         <a class="btn" asp-controller="contact" asp-action="index">Ask more</a>
                     </div>
