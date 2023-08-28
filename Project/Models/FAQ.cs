@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Text;
 
 namespace KanunWebsite.Models
 {
@@ -17,6 +18,25 @@ namespace KanunWebsite.Models
         public string? Answer { get; set;}
         public bool IsHidden { get; set; } = false;
         [Required]
-        public Guid CardId { get; set; } = Guid.NewGuid();
+        [Column(TypeName = "nvarchar")]
+        [MaxLength(10,ErrorMessage = "Cannot exceed 10 letters.")]
+        public string? CardId { get; set; } = GenerateCardId();
+
+
+        private static string GenerateCardId()
+        {
+            Random random = new();
+            const string chars = "abcdefghijklmnopqrstuvwxyz0123456789";
+            StringBuilder idBuilder = new();
+
+            idBuilder.Append(chars[random.Next(26)]);
+
+            for (int i = 1; i != 10; i++)
+            {
+                idBuilder.Append(chars[random.Next(chars.Length)]);
+            }
+
+            return idBuilder.ToString();
+        }
     }
 }

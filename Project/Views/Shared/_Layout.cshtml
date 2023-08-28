@@ -29,7 +29,6 @@
                 <div class="logo">
                     <a asp-controller="home" asp-action="index">
                         <h1>Kanun</h1>
-                        <!-- <img src="img/logo.jpg" alt="Logo"> -->
                     </a>
                 </div>
             </div>
@@ -99,8 +98,8 @@
         </div>
         <form asp-controller="Newsletter" asp-action="Create" method="post">
             <div class="form-group">
-                <input asp-for="Subscriber.Email" class="form-control" placeholder="Email here">
-                <span asp-validation-for="Subscriber.Email" class="text-danger"></span>
+                <input asp-for="Subscriber!.Email" class="form-control" placeholder="Email here">
+                <span asp-validation-for="Subscriber!.Email" class="text-danger"></span>
             </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
         </form>

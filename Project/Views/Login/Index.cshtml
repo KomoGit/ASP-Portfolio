@@ -133,19 +133,13 @@
                 text-align: center;
             }
 
-                .social div:hover {
-                    background-color: rgba(255,255,255,0.47);
-                }
-
-/*            .social .fb {
-                margin:auto;
-
-            }*/
+            .social div:hover {
+                background-color: rgba(255,255,255,0.47);
+            }
 
             .social i {
                 margin-right: 4px;
             }
-
     </style>
 </head>
 <body>
@@ -153,14 +147,14 @@
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
-    <form asp-controller="Login" asp-action="login">
+    <form asp-controller="Login" asp-action="auth">
         <h3>Login</h3>
 
         <label for="username"></label>
-        <input type="text" placeholder="Email" id="username">
+        <input type="text" required placeholder="Email" id="username">
 
         <label for="password"></label>
-        <input type="password" placeholder="Password" id="password">
+        <input type="password" required placeholder="Password" id="password">
 
         <button>Log In</button>
     </form>

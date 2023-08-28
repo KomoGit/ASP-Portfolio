@@ -8,5 +8,10 @@ namespace KanunWebsite.Controllers
         {
             return View();
         }
+
+        public IActionResult Auth()
+        {
+            return View();
+        }
     }
 }
