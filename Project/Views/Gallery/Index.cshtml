@@ -1,0 +1,86 @@
+﻿@model VMGallery
+@{
+    ViewData["Title"] = "Gallery";
+}
+<!-- START SECTION BANNER -->
+<section class="breadcrumb_section overlay_bg2 page-title-light parallax_bg" data-parallax-bg-image="images/about_bg.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="page-title animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                    <h1>Gallery</h1>
+                </div>
+                <nav aria-label="breadcrumb" class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                    <ol class="breadcrumb justify-content-center">
+                        <li class="breadcrumb-item"><a asp-controller="home" asp-action="index">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Package</li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END SECTION BANNER -->
+<!-- START SECTION GALLERY -->
+<section>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-9">
+                <div class="heading_s3 text-center animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                    <h2>Gallery</h2>
+                </div>
+                <p class="text-center animation" data-animation="fadeInUp" data-animation-delay="0.2s"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="cleafix small_divider"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+                <ul class="portfolio_container gutter_small work_col4 image_gallery gallery_hover_style1">
+                    <li class="grid-sizer"></li>
+                   @foreach (Gallery gallery in Model.Galleries)
+                    {
+                        <li class="portfolio-item">
+                            <div class="image_gallery_item">
+                                <a href="images/@gallery.Image">
+                                    <div class="gallery_img">
+                                        <img src="images/@gallery.Image" alt="image">
+                                    </div>
+                                    <div class="gallary_hover_box">
+                                        <i class="ion-image"></i>
+                                        <span>@gallery.Name</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    }      
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END SECTION GALLERY -->
+<!-- START SECTION CLIENT LOGO -->
+<section class="light_gray_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="cl_logo_slider owl-carousel owl-theme" data-margin="30" data-loop="true" data-autoplay="true" data-dots="false" data-autoplay-timeout="2000">
+                    @foreach (Partner partner in Model.Partners)
+                    {
+                        <div class="item">
+                            <a href="@partner.Link"><img src="/assets/images/@partner.Image" alt="cl_logo1" /></a>
+                        </div>
+                    }
+                   
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,193 @@
+﻿@model VMPackage
+@{
+    ViewData["Title"] = "Packages";
+}
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from bestwebcreator.com/anger/demo/demo-travel/package.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Aug 2023 14:41:58 GMT -->
+<head>
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="Anil z" name="author">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Anger is creative business agency, corporate, simple and clean template, Based on Bootstrap responsive multipurpose business agency and portfolio HTML template with unique home page demos">
+    <meta name="keywords" content="creative, fullscreen, business, photography, portfolio, one page, bootstrap responsive, start-up, ui/ux, html template, css3, studio, branding, creative design, multipurpose, multi-purpose, parallax, personal, masonry, grid, coming soon, carousel, agency">
+
+    <!-- SITE TITLE -->
+    <title>Package | Anger - Creative Business MultiPurpose HTML5 Template</title>
+    <!-- Favicon Icon -->
+    <link rel="shortcut icon" type="image/x-icon" href="../assets/images/favicon.png">
+    <!-- Animation CSS -->
+    <link rel="stylesheet" href="../assets/css/animate.css">
+    <!-- Latest Bootstrap min CSS -->
+    <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=K2D:100,200,300,400,500,600,700,800" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <!-- Icon Font -->
+    <link href="../assets/css/ico-moon.css" rel="stylesheet">
+    <!-- Icon Font CSS -->
+    <link rel="stylesheet" href="../assets/css/ionicons.min.css">
+    <link rel="stylesheet" href="../assets/css/themify-icons.css">
+    <!-- FontAwesome CSS -->
+    <link rel="stylesheet" href="../assets/css/all.min.css">
+    <!--- owl carousel CSS-->
+    <link rel="stylesheet" href="../assets/owlcarousel/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../assets/owlcarousel/css/owl.theme.css">
+    <link rel="stylesheet" href="../assets/owlcarousel/css/owl.theme.default.min.css">
+    <!-- Magnific Popup CSS -->
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <!-- Demo Travel Style CSS -->
+    <link rel="stylesheet" href="css/demo-travel.css">
+    <link rel="stylesheet" id="layoutstyle" href="../assets/color/theme-orange.css">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106310707-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-106310707-1', { 'anonymize_ip': true });
+    </script>
+
+    <!-- Start of StatCounter Code -->
+    <script>
+          <!--
+        var sc_project = 11921154;
+        var sc_security = "6c07f98b";
+        var scJsHost = (("https:" == document.location.protocol) ?
+            "https://secure." : "http://www.");
+        //-->
+
+        document.write("<sc" + "ript src='" + scJsHost + "statcounter.com/counter/counter.js'></" + "script>");</script>
+    <!-- End of StatCounter Code -->
+
+</head>
+
+<body>
+    <!-- LOADER -->
+    <div class="preloader">
+        <div class="loader_grid">
+            <div class="loader_box loader_box1"></div>
+            <div class="loader_box loader_box2"></div>
+            <div class="loader_box loader_box3"></div>
+            <div class="loader_box loader_box4"></div>
+            <div class="loader_box loader_box5"></div>
+            <div class="loader_box loader_box6"></div>
+            <div class="loader_box loader_box7"></div>
+            <div class="loader_box loader_box8"></div>
+            <div class="loader_box loader_box9"></div>
+        </div>
+    </div>
+    <!-- END LOADER -->
+    <!-- START SECTION BANNER -->
+    <section class="breadcrumb_section overlay_bg2 page-title-light parallax_bg" data-parallax-bg-image="images/about_bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <div class="page-title animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                        <h1>Package</h1>
+                    </div>
+                    <nav aria-label="breadcrumb" class="animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                        <ol class="breadcrumb justify-content-center">
+                            <li class="breadcrumb-item"><a asp-controller="home" asp-action="index">Home</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Package</li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION BANNER -->
+    <!-- START SECTION POPULAR TOURS -->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-9">
+                    <div class="heading_s3 mb-md-4 text-center animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                        <h2>Popular Tours Package</h2>
+                    </div>
+                    <p class="text-center animation" data-animation="fadeInUp" data-animation-delay="0.2s"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+                </div>
+            </div>
+            <div class="row">
+                @foreach (var item in Model.Packages)
+                {
+                    <div class="col-md-4 col-sm-6">
+                        <div class="tour_box animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+                            <div class="tour_img">
+                                <img src="images/@item.Image" alt="@item.Image" />
+                                <div class="hover_info">
+                                    <a href="#" class="btn btn-default">Book Now</a>
+                                </div>
+                            </div>
+                            <div class="tour_info">
+                                <h5><a href="#">@item.Name</a></h5>
+                                <p>@item.Desc</p>
+                                <div class="tour_foot">
+                                    <div class="tour_price">
+                                        <h4 class="text_default">@item.Price.ToString(".00")</h4>
+                                        <span>@item.Day days @item.Night nights</span>
+                                    </div>
+                                    <div class="tour_stars">
+                                        <div class="stars">
+                                            <i class="ion-android-star"></i>
+                                            <i class="ion-android-star"></i>
+                                            <i class="ion-android-star"></i>
+                                            <i class="ion-android-star-half"></i>
+                                            <i class="ion-android-star-outline"></i>
+                                        </div>
+                                        <span>(@item.Rating)</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>
+    <!-- END SECTION POPULAR TOURS -->
+    
+    <a href="#" class="scrollup" style="display: none;"><i class="ion-ios-arrow-up"></i></a>
+
+    <!-- Latest jQuery -->
+    <script src="../assets/js/jquery-1.12.4.min.js"></script>
+    <!-- jquery-ui -->
+    <script src="../assets/js/jquery-ui.js"></script>
+    <!-- popper min js -->
+    <script src="../assets/js/popper.min.js"></script>
+    <!-- Latest compiled and minified Bootstrap -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- owl-carousel min js  -->
+    <script src="../assets/owlcarousel/js/owl.carousel.min.js"></script>
+    <!-- magnific-popup min js  -->
+    <script src="../assets/js/magnific-popup.min.js"></script>
+    <!-- waypoints min js  -->
+    <script src="../assets/js/waypoints.min.js"></script>
+    <!-- parallax js  -->
+    <script src="../assets/js/parallax.js"></script>
+    <!-- countdown js  -->
+    <script src="../assets/js/jquery.countdown.min.js"></script>
+    <!-- fit video  -->
+    <script src="../assets/js/jquery.fitvids.js"></script>
+    <!-- jquery.counterup.min js -->
+    <script src="../assets/js/jquery.counterup.min.js"></script>
+    <!-- isotope min js -->
+    <script src="../assets/js/isotope.min.js"></script>
+    <!-- elevatezoom js -->
+    <script src='../assets/js/jquery.elevatezoom.js'></script>
+    <!-- scripts js -->
+    <script src="../assets/js/scripts.js"></script>
+
+</body>
+
+<!-- Mirrored from bestwebcreator.com/anger/demo/demo-travel/package.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 11 Aug 2023 14:41:59 GMT -->
+</html>

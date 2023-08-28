@@ -1,0 +1,2037 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\AngerTravelTours.bundle.scp.css",
+      "PackagePath": "staticwebassets\\AngerTravelTours.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\bootstrap\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\bootstrap\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\bootstrap\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\color\\theme-blue.css",
+      "PackagePath": "staticwebassets\\assets\\color\\theme-blue.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\color\\theme-green.css",
+      "PackagePath": "staticwebassets\\assets\\color\\theme-green.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\color\\theme-orange.css",
+      "PackagePath": "staticwebassets\\assets\\color\\theme-orange.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\color\\theme-pink.css",
+      "PackagePath": "staticwebassets\\assets\\color\\theme-pink.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\color\\theme-red.css",
+      "PackagePath": "staticwebassets\\assets\\color\\theme-red.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\color\\theme-yellow.css",
+      "PackagePath": "staticwebassets\\assets\\color\\theme-yellow.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\color\\theme.css",
+      "PackagePath": "staticwebassets\\assets\\color\\theme.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\AjaxLoader.html",
+      "PackagePath": "staticwebassets\\assets\\css\\AjaxLoader.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\all.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\all.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\datepicker.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\datepicker.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\ico-moon.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ico-moon.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\images\\ui-icons_444444_256x240.html",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ui-icons_444444_256x240.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\images\\ui-icons_555555_256x240.html",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ui-icons_555555_256x240.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\images\\ui-icons_777620_256x240.html",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ui-icons_777620_256x240.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\images\\ui-icons_777777_256x240.html",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ui-icons_777777_256x240.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\images\\ui-icons_cc0000_256x240.html",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ui-icons_cc0000_256x240.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\images\\ui-icons_ffffff_256x240.html",
+      "PackagePath": "staticwebassets\\assets\\css\\images\\ui-icons_ffffff_256x240.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\ionicons.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\ionicons.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\jquery-ui.css",
+      "PackagePath": "staticwebassets\\assets\\css\\jquery-ui.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\linearicons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\linearicons.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\assets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\mdtimepicker.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\mdtimepicker.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\assets\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\plugins.css",
+      "PackagePath": "staticwebassets\\assets\\css\\plugins.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\style.css",
+      "PackagePath": "staticwebassets\\assets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\css\\themify-icons.css",
+      "PackagePath": "staticwebassets\\assets\\css\\themify-icons.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\Flaticon-2.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon-2.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\Flaticon-3.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon-3.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\Flaticon-4.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon-4.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\Flaticon-5.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon-5.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\Flaticon.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticon.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\Flaticond41d.html",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Flaticond41d.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\IcoMoon-Free.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\IcoMoon-Free.eot"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\IcoMoon-Free.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\IcoMoon-Free.svg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\IcoMoon-Free.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\IcoMoon-Free.ttf"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\IcoMoon-Free.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\IcoMoon-Free.woff"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\IcoMoon-Free.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\IcoMoon-Free.woff2"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\Linearicons.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Linearicons.eot"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\Linearicons.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Linearicons.ttf"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\Linearicons.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Linearicons.woff"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\Lineariconsb312.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Lineariconsb312.eot"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\Lineariconsb312.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Lineariconsb312.svg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\Lineariconsb312.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Lineariconsb312.ttf"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\Lineariconsb312.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\Lineariconsb312.woff"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-brands-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.eot"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-brands-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.svg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-brands-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-brands-400d41d.eot"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-regular-400.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.eot"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-regular-400.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.svg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-regular-400d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-regular-400d41d.eot"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-solid-900.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.eot"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-solid-900.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.svg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\fa-solid-900d41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fa-solid-900d41d.eot"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\ionicons28b5.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.eot"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\ionicons28b5.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.svg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\ionicons28b5.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.ttf"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\ionicons28b5.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\ionicons28b5.woff"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\themify9f24.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify9f24.eot"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\themify9f24.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify9f24.svg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\themify9f24.ttf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify9f24.ttf"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\themify9f24.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themify9f24.woff"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\fonts\\themifyd41d.eot",
+      "PackagePath": "staticwebassets\\assets\\fonts\\themifyd41d.eot"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\404_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\404_bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\404_bg2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\404_bg2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\about_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about_bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\about_img1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about_img1.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\about_img10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about_img10.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\about_img11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about_img11.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\about_img2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\about_img2.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\about_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about_img3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\about_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about_img4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\about_img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about_img5.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\about_img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about_img6.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\about_img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about_img7.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\about_img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about_img8.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\about_img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\about_img9.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\amarican_express.png",
+      "PackagePath": "staticwebassets\\assets\\images\\amarican_express.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\banner1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\banner10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner10.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\banner11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner11.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\banner13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner13.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\banner14.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner14.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\banner15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner15.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\banner3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\banner4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\banner5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner5.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\banner6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner6.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\banner7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner7.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\banner8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner8.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\banner9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\banner9.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\bg_pattern.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\bg_pattern.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_img1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_img2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_img3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_img4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_img5.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_img6.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img1_350X198.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img1_350X198.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img1_540X304.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img1_540X304.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img2_350X198.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img2_350X198.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img2_540X304.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img2_540X304.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img3_350X198.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img3_350X198.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img3_540X304.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img3_540X304.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img4_350X198.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img4_350X198.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img4_540X304.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img4_540X304.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img5_350X198.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img5_350X198.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img5_540X304.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img5_540X304.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img6_350X198.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img6_350X198.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img6_540X304.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img6_540X304.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img7_350X466.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img7_350X466.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img7_540X720.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img7_540X720.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img8_350X388.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img8_350X388.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img8_540X600.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img8_540X600.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img9_350X388.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img9_350X388.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\blog_small_img9_540X600.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog_small_img9_540X600.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\breadcrumb_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\breadcrumb_bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\bubble.png",
+      "PackagePath": "staticwebassets\\assets\\images\\bubble.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cart_thamb1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cart_thamb1.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cart_thamb2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cart_thamb2.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cl_logo1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo1.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cl_logo1_white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo1_white.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cl_logo2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo2.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cl_logo2_white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo2_white.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cl_logo3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo3.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cl_logo3_white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo3_white.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cl_logo4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo4.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cl_logo4_white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo4_white.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cl_logo5.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo5.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cl_logo5_white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo5_white.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cl_logo6.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo6.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cl_logo6_white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo6_white.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cl_logo7.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo7.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cl_logo8.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo8.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cl_logo9.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cl_logo9.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\contact-bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\contact-bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\countdown_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\countdown_bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\counter_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\counter_bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\counter_bg1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\counter_bg1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\counter_bg2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\counter_bg2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\counter_bg3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\counter_bg3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\counter_bg4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\counter_bg4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cta_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cta_bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\cta_bg2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\cta_bg2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\discover.png",
+      "PackagePath": "staticwebassets\\assets\\images\\discover.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\faq_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\faq_bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\favicon.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\footer_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\footer_bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\icon_box_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon_box_img1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\icon_box_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon_box_img2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\icon_box_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon_box_img3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\icon_box_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon_box_img4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\icon_box_img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon_box_img5.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\icon_box_img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\icon_box_img6.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\icon_pattern.png",
+      "PackagePath": "staticwebassets\\assets\\images\\icon_pattern.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\insta_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\insta_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\insta_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\insta_img4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\insta_img5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img5.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\insta_img6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img6.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\insta_img7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img7.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\insta_img8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img8.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\insta_img9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\insta_img9.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\letest_post1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\letest_post1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\letest_post2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\letest_post2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\letest_post3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\letest_post3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\line.png",
+      "PackagePath": "staticwebassets\\assets\\images\\line.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\loading40fe.gif",
+      "PackagePath": "staticwebassets\\assets\\images\\loading40fe.gif"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\logo_dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo_dark.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\logo_footer.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo_footer.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\logo_footer_dark.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo_footer_dark.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\logo_white.png",
+      "PackagePath": "staticwebassets\\assets\\images\\logo_white.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\master_card.png",
+      "PackagePath": "staticwebassets\\assets\\images\\master_card.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\pattern.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pattern.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\pattern2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pattern2.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\pattern_bg2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pattern_bg2.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\pattern_bg3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pattern_bg3.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\pattren_bg.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pattren_bg.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\pattren_bg1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\pattren_bg1.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\paypal.png",
+      "PackagePath": "staticwebassets\\assets\\images\\paypal.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\play-icon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\play-icon.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item10.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item11.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item11_360X270.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item11_360X270.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item11_548X410.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item11_548X410.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item11_690X518.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item11_690X518.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item12_360X316.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item12_360X316.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item12_548X482.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item12_548X482.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item12_690X606.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item12_690X606.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item13.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item13.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item13_360X480.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item13_360X480.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item13_548X730.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item13_548X730.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item13_690X918.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item13_690X918.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item14_360X478.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item14_360X478.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item14_548X728.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item14_548X728.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item14_690X990.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item14_690X990.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item15.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item15.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item15_360X270.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item15_360X270.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item15_548X410.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item15_548X410.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item15_690X460.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item15_690X460.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item16.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item16.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item16_360X424.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item16_360X424.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item16_548X646.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item16_548X646.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item16_690X860.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item16_690X860.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item17.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item17.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item17_360X360.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item17_360X360.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item17_380X488.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item17_380X488.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item17_548X548.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item17_548X548.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item17_690X690.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item17_690X690.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item18.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item18.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item18_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item18_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item18_548X366.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item18_548X366.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item18_690X460.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item18_690X460.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item19.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item19.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item19_210X140.html",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item19_210X140.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item19_266X178.html",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item19_266X178.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item19_640X426.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item19_640X426.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item19_960X640.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item19_960X640.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item20.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item20.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item21.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item21.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item22.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item22.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item22_540X676.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item22_540X676.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item22_640X426.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item22_640X426.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item23.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item23.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item24.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item24.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item25.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item25.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item26.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item26.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item4_338X224.html",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item4_338X224.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item5.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item6.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item6_548X364.html",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item6_548X364.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item7.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item8.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item8_210X140.html",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item8_210X140.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item8_266X178.html",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item8_266X178.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item9.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small10_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small10_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small10_548X364.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small10_548X364.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small10_690X458.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small10_690X458.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small19_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small19_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small19_548X364.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small19_548X364.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small19_690X458.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small19_690X458.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small1_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small1_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small1_548X364.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small1_548X364.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small1_690X458.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small1_690X458.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small20_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small20_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small20_548X364.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small20_548X364.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small20_690X458.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small20_690X458.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small21_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small21_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small22_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small22_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small23_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small23_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small23_548X364.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small23_548X364.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small23_690X458.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small23_690X458.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small24_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small24_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small24_548X364.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small24_548X364.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small24_690X458.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small24_690X458.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small25_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small25_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small25_548X364.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small25_548X364.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small25_690X458.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small25_690X458.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small26_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small26_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small2_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small2_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small2_548X364.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small2_548X364.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small2_690X458.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small2_690X458.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small3_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small3_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small3_548X364.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small3_548X364.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small3_690X458.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small3_690X458.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small4_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small4_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small4_548X364.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small4_548X364.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small4_690X458.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small4_690X458.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small5_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small5_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small5_548X364.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small5_548X364.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small5_690X458.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small5_690X458.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small6_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small6_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small6_548X364.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small6_548X364.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small6_690X458.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small6_690X458.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small7_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small7_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small7_548X364.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small7_548X364.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small7_690X458.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small7_690X458.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small8_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small8_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small8_548X364.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small8_548X364.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small8_690X458.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small8_690X458.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small9_360X240.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small9_360X240.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small9_548X364.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small9_548X364.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_item_small9_690X458.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_item_small9_690X458.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_signle_bg1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_signle_bg1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\portfolio_signle_bg2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\portfolio_signle_bg2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product1-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product1-1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product1-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product1-2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product1-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product1-3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product10.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product11-11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product11-11.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product11.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product12.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product1_446X534.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product1_446X534.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product2-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product2-2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product3-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product3-3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product4-4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product4-4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product5-5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product5-5.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product5.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product6.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product7-7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product7-7.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product7.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product8-8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product8-8.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product8.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product9-9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product9-9.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product9.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product_small1-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_small1-1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product_small1-2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_small1-2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product_small1-3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_small1-3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\product_small1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product_small1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\quote.png",
+      "PackagePath": "staticwebassets\\assets\\images\\quote.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\quote2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\quote2.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\quote_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\quote_bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\sample.mp4",
+      "PackagePath": "staticwebassets\\assets\\images\\sample.mp4"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\service_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service_bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\service_img1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service_img1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\service_img2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service_img2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\service_img3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\service_img3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\shop_small1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_small1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\shop_small11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_small11.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\shop_small12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_small12.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\shop_small2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_small2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\shop_small3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_small3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\shop_small9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop_small9.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\signature.png",
+      "PackagePath": "staticwebassets\\assets\\images\\signature.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\social_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\social_bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\team1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\team2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\team3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\team4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\team5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team5.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\team6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team6.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\team7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team7.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\team8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team8.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\team9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team9.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\team_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\team_bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\testimonial_bg.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\testimonial_bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\user1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\user2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\user3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\user4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\user4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\video_poster.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\video_poster.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\images\\visa.png",
+      "PackagePath": "staticwebassets\\assets\\images\\visa.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\Hoverparallax.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\Hoverparallax.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\ScrollToFixed.js",
+      "PackagePath": "staticwebassets\\assets\\js\\ScrollToFixed.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\datepicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\datepicker.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\isotope-loadmore.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope-loadmore.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\isotope.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\isotope.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\jquery-1.12.4.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-1.12.4.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\jquery.counterup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.counterup.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\jquery.dd.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.dd.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\jquery.elevatezoom.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.elevatezoom.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\jquery.fitvids.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.fitvids.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\jquery.parallax-scroll.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.parallax-scroll.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\lazysizes.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\lazysizes.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\magnific-popup.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\mdtimepicker.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\mdtimepicker.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\parallax.js",
+      "PackagePath": "staticwebassets\\assets\\js\\parallax.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\plugins.js",
+      "PackagePath": "staticwebassets\\assets\\js\\plugins.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\popper.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\assets\\js\\scripts.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\shop-quick-view.js",
+      "PackagePath": "staticwebassets\\assets\\js\\shop-quick-view.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\sticky-kit.min.html",
+      "PackagePath": "staticwebassets\\assets\\js\\sticky-kit.min.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\typed-text.js",
+      "PackagePath": "staticwebassets\\assets\\js\\typed-text.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\typed.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\typed.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\vanilla-tilt.babel.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\vanilla-tilt.babel.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\js\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\waypoints.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\owlcarousel\\css\\AjaxLoader.html",
+      "PackagePath": "staticwebassets\\assets\\owlcarousel\\css\\AjaxLoader.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\owlcarousel\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\assets\\owlcarousel\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\owlcarousel\\css\\owl.theme.css",
+      "PackagePath": "staticwebassets\\assets\\owlcarousel\\css\\owl.theme.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\owlcarousel\\css\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\assets\\owlcarousel\\css\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\owlcarousel\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\assets\\owlcarousel\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\assets\\owlcarousel\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\assets\\owlcarousel\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\css\\demo-travel.css",
+      "PackagePath": "staticwebassets\\css\\demo-travel.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\about_bg.jpg",
+      "PackagePath": "staticwebassets\\images\\about_bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\about_img.jpg",
+      "PackagePath": "staticwebassets\\images\\about_img.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\banner1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\banner2.jpg",
+      "PackagePath": "staticwebassets\\images\\banner2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\banner3.jpg",
+      "PackagePath": "staticwebassets\\images\\banner3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\blog_img1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog_img1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\blog_small_img1.jpg",
+      "PackagePath": "staticwebassets\\images\\blog_small_img1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\blog_small_img2.jpg",
+      "PackagePath": "staticwebassets\\images\\blog_small_img2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\blog_small_img3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog_small_img3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\blog_small_img4.jpg",
+      "PackagePath": "staticwebassets\\images\\blog_small_img4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\blog_small_img5.jpg",
+      "PackagePath": "staticwebassets\\images\\blog_small_img5.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\blog_small_img6.jpg",
+      "PackagePath": "staticwebassets\\images\\blog_small_img6.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\counter_bg.jpg",
+      "PackagePath": "staticwebassets\\images\\counter_bg.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_img1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_img1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_img2.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_img2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_img3.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_img3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_img4.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_img4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_img5.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_img5.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_img6.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_img6.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_img7.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_img7.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_img8.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_img8.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_small_img1.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_small_img1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_small_img2.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_small_img2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_small_img3.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_small_img3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_small_img4.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_small_img4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_small_img5.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_small_img5.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_small_img6.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_small_img6.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_small_img7.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_small_img7.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\gallery_small_img8.jpg",
+      "PackagePath": "staticwebassets\\images\\gallery_small_img8.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\letest_post1.jpg",
+      "PackagePath": "staticwebassets\\images\\letest_post1.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\letest_post2.jpg",
+      "PackagePath": "staticwebassets\\images\\letest_post2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\letest_post3.jpg",
+      "PackagePath": "staticwebassets\\images\\letest_post3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\testimonial_img.jpg",
+      "PackagePath": "staticwebassets\\images\\testimonial_img.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\tour_img.jpg",
+      "PackagePath": "staticwebassets\\images\\tour_img.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\tour_img2.jpg",
+      "PackagePath": "staticwebassets\\images\\tour_img2.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\tour_img3.jpg",
+      "PackagePath": "staticwebassets\\images\\tour_img3.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\tour_img4.jpg",
+      "PackagePath": "staticwebassets\\images\\tour_img4.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\tour_img5.jpg",
+      "PackagePath": "staticwebassets\\images\\tour_img5.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\tour_img6.jpg",
+      "PackagePath": "staticwebassets\\images\\tour_img6.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\tour_img7.jpg",
+      "PackagePath": "staticwebassets\\images\\tour_img7.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\tour_img8.jpg",
+      "PackagePath": "staticwebassets\\images\\tour_img8.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\tour_img9.jpg",
+      "PackagePath": "staticwebassets\\images\\tour_img9.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\travel-logo_dark.png",
+      "PackagePath": "staticwebassets\\images\\travel-logo_dark.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\travel-logo_white.png",
+      "PackagePath": "staticwebassets\\images\\travel-logo_white.png"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\images\\why_img.jpg",
+      "PackagePath": "staticwebassets\\images\\why_img.jpg"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Personal Files\\Programming Projects\\C#\\Lesson Chapter 1\\Chapter 4\\Homework 4\\AngerTravelTours\\AngerTravelTours\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.AngerTravelTours.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.AngerTravelTours.props",
+      "PackagePath": "build\\AngerTravelTours.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.AngerTravelTours.props",
+      "PackagePath": "buildMultiTargeting\\AngerTravelTours.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.AngerTravelTours.props",
+      "PackagePath": "buildTransitive\\AngerTravelTours.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

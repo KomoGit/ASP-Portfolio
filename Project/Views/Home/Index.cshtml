@@ -1,0 +1,464 @@
+﻿@model VMHome
+@{
+    ViewData["Title"] = "Home Page";
+}
+<!-- START SECTION BANNER -->
+<section class="banner_section p-0 full_screen">
+    <div id="carouselExampleControls" class="banner_content_wrap carousel slide light_arrow" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active background_bg overlay_bg2" data-img-src="/images/banner1.jpg">
+                <div class="banner_slide_content">
+                    <div class="container">
+                        <!-- STRART CONTAINER -->
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                                <div class="banner_content text_white">
+                                    <h2 class="animation" data-animation="fadeInDown" data-animation-delay="1s">Tour with family</h2>
+                                    <p class="animation mt-3 mb-4" data-animation="fadeInUp" data-animation-delay="1.5s">Lorem is simply text of the printing and typesetting industry.</p>
+                                    <a class="btn btn-default animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Get Started</a>
+                                    <a class="btn btn-outline-white animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- END CONTAINER-->
+                </div>
+            </div>
+            <div class="carousel-item background_bg overlay_bg2" data-img-src="/images/banner2.jpg">
+                <div class="banner_slide_content">
+                    <div class="container">
+                        <!-- STRART CONTAINER -->
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                                <div class="banner_content text_white">
+                                    <h2 class="animation" data-animation="fadeInDown" data-animation-delay="1s">Tour for you</h2>
+                                    <p class="animation mt-3 mb-4" data-animation="fadeInUp" data-animation-delay="1.5s">Contrary to popular belief, Lorem Ipsum is not simply random</p>
+                                    <a class="btn btn-default animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Get Started</a>
+                                    <a class="btn btn-outline-white animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- END CONTAINER-->
+                </div>
+            </div>
+            <div class="carousel-item background_bg overlay_bg2" data-img-src="/images/banner3.jpg">
+                <div class="banner_slide_content">
+                    <div class="container">
+                        <!-- STRART CONTAINER -->
+                        <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                                <div class="banner_content text_white">
+                                    <h2 class="animation" data-animation="fadeInDown" data-animation-delay="1s">Travel around the world</h2>
+                                    <p class="animation mt-3 mb-4" data-animation="fadeInUp" data-animation-delay="1.5s">Contrary to popular belief, Lorem Ipsum is not simply random</p>
+                                    <a class="btn btn-default animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Get Started</a>
+                                    <a class="btn btn-outline-white animation" href="#" data-animation="fadeInUp" data-animation-delay="1.8s">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- END CONTAINER-->
+                </div>
+            </div>
+        </div>
+        <ol class="carousel-indicators indicators_style4">
+            <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+            <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+        </ol>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"><i class="ion-chevron-left"></i></a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"><i class="ion-chevron-right"></i></a>
+    </div>
+</section>
+<!-- END SECTION BANNER -->
+<!-- START SECTION ABOUT US -->
+<section>
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="mb-4 mb-lg-0 fancy_style3 animation" data-animation="fadeInLeft" data-animation-delay="0.1s">
+                    <div class="overlay_bg position-relative">
+                        <img src="/images/why_img.jpg" alt="why_img" />
+                        <a href="https://www.youtube.com/watch?v=7e90gBu4pas" class="video_popup video_play"><img class="bounce_img" src="assets/images/play-icon.png" alt="play-icon"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12">
+                <div class="heading_s3 mb-md-4 animation" data-animation="fadeInRight" data-animation-delay="0.1s">
+                    <h2>Why Choose Us?</h2>
+                </div>
+                <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary</p>
+                <div class="row mb-4">
+                    <div class="col-sm-6">
+                        <div class="list_style_4">
+                            <ul>
+                                <li>Best Places For Best Price</li>
+                                <li>Cultural & Theater Tours</li>
+                                <li>World Best Services</li>
+                                <li>Wild & Adventure Tours</li>
+                                <li>Private Guide Tours</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="list_style_4">
+                            <ul>
+                                <li>World Best Services</li>
+                                <li>Private Guide Tours</li>
+                                <li>Holiday & Seasonal Tours</li>
+                                <li>Best Places For Best Price</li>
+                                <li>Cultural & Theater Tours</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <a asp-controller="about" asp-action="index" class="btn btn-outline-default">Read More</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END SECTION ABOUT US -->
+<!-- START SECTION POPULAR TOURS -->
+<section class="light_gray_bg">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-9">
+                <div class="heading_s3 mb-md-4 text-center animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                    <h2>Popular Tours Package</h2>
+                </div>
+                <p class="text-center animation" data-animation="fadeInUp" data-animation-delay="0.2s"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+            </div>
+        </div>
+        <div class="row">
+            @foreach (TourPackage item in Model.Packages)
+            {
+                <div class="col-md-4 col-sm-6">
+                    <div class="tour_box animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+                        <div class="tour_img">
+                            <img src="/images/@item.Image" alt="tour_img" />
+                            <div class="hover_info">
+                                <a href="#" class="btn btn-default">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="tour_info">
+                            <h5><a href="#">@item.Name</a></h5>
+                            <p>@item.Desc</p>
+                            <div class="tour_foot">
+                                <div class="tour_price">
+                                    <h4 class="text_default">@item.Price</h4>
+                                    <span>@item.Day days @item.Night nights</span>
+                                </div>
+                                <div class="tour_stars">
+                                    <div class="stars">
+                                        <i class="ion-android-star"></i>
+                                        <i class="ion-android-star"></i>
+                                        <i class="ion-android-star"></i>
+                                        <i class="ion-android-star-half"></i>
+                                        <i class="ion-android-star-outline"></i>
+                                    </div>
+                                    <span>(@item.Rating.ToString() Rating)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }          
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="clearfix medium_divider"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <a asp-controller="package" asp-action="index" class="btn btn-default">View All Tours <i class="ion-ios-arrow-thin-right"></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END SECTION POPULAR TOURS -->
+<!-- START SECTION FEATURE -->
+<section class="small_pb">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-9">
+                <div class="heading_s3 mb-md-4 text-center animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                    <h2>Our Services</h2>
+                </div>
+                <p class="text-center animation" data-animation="fadeInUp" data-animation-delay="0.2s">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="clearfix small_divider"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 col-sm-6 mb-lg-5 mb-3 text-center">
+                <div class="icon_box icon_box_style_3 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+                    <div class="box_icon mb-3">
+                        <i class="fa fa-hotel"></i>
+                    </div>
+                    <div class="icon_box_content">
+                        <h5>Hotel Booking</h5>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-lg-5 mb-3 text-center">
+                <div class="icon_box icon_box_style_3 animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                    <div class="box_icon mb-3">
+                        <i class="fa fa-ticket-alt"></i>
+                    </div>
+                    <div class="icon_box_content">
+                        <h5>Ticket Booking</h5>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-lg-5 mb-3 text-center">
+                <div class="icon_box icon_box_style_3 animation" data-animation="fadeInUp" data-animation-delay="0.5s">
+                    <div class="box_icon mb-3">
+                        <i class="fa fa-plane"></i>
+                    </div>
+                    <div class="icon_box_content">
+                        <h5>Flight Booking</h5>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-lg-5 mb-3 text-center">
+                <div class="icon_box icon_box_style_3 animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+                    <div class="box_icon mb-3">
+                        <i class="fa fa-subway"></i>
+                    </div>
+                    <div class="icon_box_content">
+                        <h5>Rail Booking</h5>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-lg-5 mb-3 text-center">
+                <div class="icon_box icon_box_style_3 animation" data-animation="fadeInUp" data-animation-delay="0.7s">
+                    <div class="box_icon mb-3">
+                        <i class="fa fa-user-tie"></i>
+                    </div>
+                    <div class="icon_box_content">
+                        <h5>Guide Service</h5>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-lg-5 mb-3 text-center">
+                <div class="icon_box icon_box_style_3 animation" data-animation="fadeInUp" data-animation-delay="0.8s">
+                    <div class="box_icon mb-3">
+                        <i class="fa fa-ship"></i>
+                    </div>
+                    <div class="icon_box_content">
+                        <h5>Cruises Booking</h5>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END SECTION FEATURE -->
+<!-- START SECTION CALL TO ACTION -->
+<section class="overlay_bg3 parallax_bg" data-parallax-bg-image="demo-travel/images/counter_bg.jpg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text_white text-center">
+                <div class="heading_s3 heading_light mb-md-4 animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                    <h2>Get 10% Discount Any Tour Package</h2>
+                </div>
+                <p class="animation" data-animation="fadeInUp" data-animation-delay="0.2s"> Travel between 22 April to 21 May and get existing offers.</p>
+                <a asp-controller="package" asp-action="index" class="btn btn-default mt-2 animation" data-animation="fadeInUp" data-animation-delay="0.4s"> Book Now</a>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END SECTION CALL TO ACTION -->
+<!-- START SECTION GALLERY -->
+<section class="small_pb">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-6 col-md-9">
+                <div class="heading_s3 text-center animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                    <h2>Gallery</h2>
+                </div>
+                <p class="text-center animation" data-animation="fadeInUp" data-animation-delay="0.2s"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="cleafix small_divider"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+                <ul class="list_none carousel_slide4 owl-carousel owl-theme image_gallery gallery_hover_style1" data-loop="true" data-margin="15" data-dots="false" data-autoplay="true" data-nav="true" data-autoplay-timeout="2500" data-center="true">
+                   @*Where Gallery Image Instance Starts*@
+                   @foreach (Gallery item in Model.Galleries)
+                    {    
+                        <li>
+                            <div class="image_gallery_item">
+                                <a href="images/@item.Image">
+                                    <div class="gallery_img">
+                                        <img src="images/@item.Image" alt="image">
+                                    </div>
+                                    <div class="gallary_hover_box">
+                                    <i class="ion-image"></i>
+                                    <span>@item.Name</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </li>
+                    }
+                    @*Where Gallery Image Instance Ends*@
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END SECTION GALLERY -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                <div class="cl_logo_slider owl-carousel owl-theme" data-margin="30" data-loop="true" data-autoplay="true" data-dots="false" data-autoplay-timeout="2000">
+                    <div class="item">
+                        <a href="#"><img src="assets/images/cl_logo1.png" alt="cl_logo1" /></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/images/cl_logo2.png" alt="cl_logo2" /></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/images/cl_logo3.png" alt="cl_logo3" /></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/images/cl_logo4.png" alt="cl_logo4" /></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/images/cl_logo5.png" alt="cl_logo5" /></a>
+                    </div>
+                    <div class="item">
+                        <a href="#"><img src="assets/images/cl_logo6.png" alt="cl_logo6" /></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- START SECTION TESTIMONIAL -->
+<section class="small_pt">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <div class="small_padding bg-dark text_white animation" data-animation="fadeInLeft" data-animation-delay="0.1s">
+                    <div class="heading_s3 heading_light mb-md-4 text-center">
+                        <h2>Clients Feedback</h2>
+                    </div>
+                    <div class="testimonial_slider testimonial_style5 carousel_slide1 owl-carousel owl-theme" data-margin="30" data-loop="true" data-autoHeight="true" data-autoplay="true">
+                        <div class="item">
+                            <div class="testimonial_box">
+                                <div class="testimonial_img">
+                                    <img class="rounded-circle m-auto" src="assets/images/user1.jpg" alt="user">
+                                </div>
+                                <div class="testi_meta">
+                                    <h6>Daisy Lana</h6>
+                                    <span>Creative Director</span>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, quaeillo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial_box">
+                                <div class="testimonial_img">
+                                    <img class="rounded-circle m-auto" src="assets/images/user2.jpg" alt="user">
+                                </div>
+                                <div class="testi_meta">
+                                    <h6>Daisy Lana</h6>
+                                    <span>Creative Director</span>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, quaeillo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial_box">
+                                <div class="testimonial_img">
+                                    <img class="rounded-circle m-auto" src="assets/images/user3.jpg" alt="user">
+                                </div>
+                                <div class="testi_meta">
+                                    <h6>Daisy Lana</h6>
+                                    <span>Creative Director</span>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, quaeillo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="testimonial_box">
+                                <div class="testimonial_img">
+                                    <img class="rounded-circle m-auto" src="assets/images/user4.jpg" alt="user">
+                                </div>
+                                <div class="testi_meta">
+                                    <h6>Daisy Lana</h6>
+                                    <span>Creative Director</span>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, quaeillo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="fancy_style2 animation" data-animation="fadeInRight" data-animation-delay="0.1s">
+                    <img src="/images/testimonial_img.jpg" alt="testimonial_img">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- END SECTION TESTIMONIAL -->
+<!-- START SECTION BLOG -->
+<section class="light_gray_bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading_s3 mb-md-4 text-center animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+                    <h2>Our Latest Blogs</h2>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="clearfix small_divider"></div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            @foreach (Blog item in Model.RecentPosts)
+            {
+                <div class="col-lg-4 col-md-6 mb-md-4 mb-2 pb-2">
+                    <div class="blog_post blog_style4 box_shadow4 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+                        <div class="blog_img">
+                            <a href="#">
+                                <img src="/images/@item.Image" alt="@item.Image">
+                            </a>
+                        </div>
+                        <div class="blog_content bg-white">
+                            <div class="blog_text">
+                                <h5 class="blog_title"><a href="#">@item.Title</a></h5>
+                                <ul class="list_none blog_meta">
+                                    <li><a href="#"><i class="ion-calendar"></i> @item.AddedDate.ToString("dd-MM-yyyy")</a></li>
+                                    <li><a href="#"><i class="ion-chatboxes"></i>2 Comments</a></li>
+                                </ul>
+                                <p>@item.Content</p>
+                                <a href="#" class="text-capitalize">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }          
+        </div>
+    </div>
+</section>
+<!-- END SECTION BLOG -->

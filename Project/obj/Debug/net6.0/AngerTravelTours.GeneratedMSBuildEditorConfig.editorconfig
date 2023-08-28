@@ -1,0 +1,65 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AngerTravelTours
+build_property.RootNamespace = AngerTravelTours
+build_property.ProjectDir = D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 4\AngerTravelTours\AngerTravelTours\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Personal Files\Programming Projects\C#\Lesson Chapter 1\Chapter 4\Homework 4\AngerTravelTours\AngerTravelTours
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Personal Files/Programming Projects/C\#/Lesson Chapter 1/Chapter 4/Homework 4/AngerTravelTours/AngerTravelTours/Views/About/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Personal Files/Programming Projects/C\#/Lesson Chapter 1/Chapter 4/Homework 4/AngerTravelTours/AngerTravelTours/Views/BlogDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ0RldGFpbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Personal Files/Programming Projects/C\#/Lesson Chapter 1/Chapter 4/Homework 4/AngerTravelTours/AngerTravelTours/Views/Blog/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Personal Files/Programming Projects/C\#/Lesson Chapter 1/Chapter 4/Homework 4/AngerTravelTours/AngerTravelTours/Views/Contact/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Personal Files/Programming Projects/C\#/Lesson Chapter 1/Chapter 4/Homework 4/AngerTravelTours/AngerTravelTours/Views/Gallery/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2FsbGVyeVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Personal Files/Programming Projects/C\#/Lesson Chapter 1/Chapter 4/Homework 4/AngerTravelTours/AngerTravelTours/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Personal Files/Programming Projects/C\#/Lesson Chapter 1/Chapter 4/Homework 4/AngerTravelTours/AngerTravelTours/Views/Newsletter/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3c2xldHRlclxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Personal Files/Programming Projects/C\#/Lesson Chapter 1/Chapter 4/Homework 4/AngerTravelTours/AngerTravelTours/Views/Package/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFja2FnZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Personal Files/Programming Projects/C\#/Lesson Chapter 1/Chapter 4/Homework 4/AngerTravelTours/AngerTravelTours/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Personal Files/Programming Projects/C\#/Lesson Chapter 1/Chapter 4/Homework 4/AngerTravelTours/AngerTravelTours/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Personal Files/Programming Projects/C\#/Lesson Chapter 1/Chapter 4/Homework 4/AngerTravelTours/AngerTravelTours/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Personal Files/Programming Projects/C\#/Lesson Chapter 1/Chapter 4/Homework 4/AngerTravelTours/AngerTravelTours/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-mwhrz2z2uc
