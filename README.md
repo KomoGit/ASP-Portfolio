@@ -6,3 +6,4 @@ Note: This template was not made by me. All rights belong to their respectful ow
 
 Other Projects <br>
 [SEOTech](https://github.com/KomoGit/ASP-Portfolio/tree/SEOTECH-Web-Page)
+[Anger Travel](https://github.com/KomoGit/ASP-Portfolio/tree/Anger-Travel-Tour)
