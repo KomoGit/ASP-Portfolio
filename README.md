@@ -5,5 +5,5 @@ Note: This template was not made by me. All rights belong to their respectful ow
 [Link To The Template](https://htmlcodex.com/law-firm-website-template/)
 
 Other Projects <br>
-[SEOTech](https://github.com/KomoGit/ASP-Portfolio/tree/SEOTECH-Web-Page)
+[SEOTech](https://github.com/KomoGit/ASP-Portfolio/tree/SEOTECH-Web-Page) <br>
 [Anger Travel](https://github.com/KomoGit/ASP-Portfolio/tree/Anger-Travel-Tour)
