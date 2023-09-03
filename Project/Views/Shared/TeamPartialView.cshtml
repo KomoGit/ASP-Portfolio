@@ -4,7 +4,8 @@
     <div class="col-lg-3 col-md-6">
         <div class="team-item">
             <div class="team-img">
-                <img src="~/img/@member.BannerPicture" alt="Team Image">
+                <img src="~/Site/img/@(!File.Exists($"{@member.BannerPicture}") ? member.BannerPicture : "team-404.png")" alt="Team Image">
+                @* <img src="~/img/@member.BannerPicture" alt="Team Image">             *@
             </div>
             <div class="team-text">
                 <h2>@member.FullName</h2>

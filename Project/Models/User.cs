@@ -54,6 +54,10 @@ namespace KanunWebsite.Models
         [MaxLength(100, ErrorMessage = "Cannot be more than 100")]
         [MinLength(10, ErrorMessage = "Cannot be less than 10")]
         public string? Email { get; set; }
+        [Required]
+        public string? Password { get; set; }
+        [Required]
+        public string? Token { get; set; }  
         #endregion
     }
 }
