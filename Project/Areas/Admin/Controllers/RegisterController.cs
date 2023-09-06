@@ -20,8 +20,9 @@ namespace KanunWebsite.Areas.Admin.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Register(VMRegister model)
+        public IActionResult Index(VMRegister model)
         {
+            Console.WriteLine("Create method working!");
             if (_context.Users.Any(u => u.Email == model.Email))
             {
                 ModelState.AddModelError("Email","The email is already in use");
@@ -34,10 +35,13 @@ namespace KanunWebsite.Areas.Admin.Controllers
                     Email = model.Email,
                     Password = Crypto.HashPassword(model.Password),
                     Token = Guid.NewGuid().ToString(),
+                    TitleId = 1,
                 };
                 _context.Users.Add(user);
+                _context.SaveChanges();
+                return RedirectToAction("index", "admin");
             }
-            return RedirectToAction("index","login");
+            return View(model);
         }
     }
 }

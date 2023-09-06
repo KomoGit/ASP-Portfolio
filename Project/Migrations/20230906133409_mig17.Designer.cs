@@ -4,6 +4,7 @@ using KanunWebsite.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KanunWebsite.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20230906133409_mig17")]
+    partial class mig17
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -290,6 +293,7 @@ namespace KanunWebsite.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Biography")
+                        .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("ntext");
 
@@ -299,6 +303,7 @@ namespace KanunWebsite.Migrations
                         .HasColumnType("nvarchar(100)");
 
                     b.Property<string>("Facebook")
+                        .IsRequired()
                         .HasMaxLength(300)
                         .HasColumnType("ntext");
 
@@ -308,10 +313,12 @@ namespace KanunWebsite.Migrations
                         .HasColumnType("nvarchar");
 
                     b.Property<string>("Instagram")
+                        .IsRequired()
                         .HasMaxLength(300)
                         .HasColumnType("ntext");
 
                     b.Property<string>("LinkedIn")
+                        .IsRequired()
                         .HasMaxLength(300)
                         .HasColumnType("ntext");
 
@@ -331,6 +338,7 @@ namespace KanunWebsite.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Twitter")
+                        .IsRequired()
                         .HasMaxLength(300)
                         .HasColumnType("ntext");
 

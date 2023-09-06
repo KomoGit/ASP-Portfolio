@@ -34,8 +34,8 @@ app.MapControllerRoute(
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapControllerRoute(
-      name: "MyArea",
-      pattern: "{area:exists}/{controller=Dashboard}/{action=Index}/{id?}"
+      name: "admin",
+      pattern: "{area:exists}/{controller=login}/{action=Index}/{id?}"
     );
 });
 
