@@ -10,11 +10,11 @@
         "projectUniqueName": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\KanunWebsite.csproj",
         "projectName": "KanunWebsite",
         "projectPath": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\KanunWebsite.csproj",
-        "packagesPath": "C:\\Users\\Elnur\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\James\\.nuget\\packages\\",
         "outputPath": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Elnur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\James\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "CryptoHelper": {
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.10, )"

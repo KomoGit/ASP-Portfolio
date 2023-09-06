@@ -1,4 +1,5 @@
-﻿using KanunWebsite.Areas.Admin.ViewModel;
+﻿using CryptoHelper;
+using KanunWebsite.Areas.Admin.ViewModel;
 using KanunWebsite.Data;
 using KanunWebsite.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -20,10 +21,26 @@ namespace KanunWebsite.Areas.Admin.Controllers
         {
             return View();
         }
-        [HttpPost] //This might cause issues.
-        public IActionResult Login(VMLogin login)
+        [HttpPost]
+        public IActionResult Login(VMLogin model)
         {
-            return View();
+            if(ModelState.IsValid)
+            {
+                User user = _context.Users.FirstOrDefault(u => u.Email == model.Email);
+                if (user != null && Crypto.VerifyHashedPassword(user.Password,model.Password)) 
+                {
+                    user.Token = Guid.NewGuid().ToString();
+                    _context.SaveChanges();
+                    Response.Cookies.Append("token",user.Token, new CookieOptions
+                    {
+                        Expires = DateTimeOffset.Now.AddDays(24),
+                        HttpOnly = true
+                    });
+                    return RedirectToAction("index","dashboard");
+                }
+                ModelState.AddModelError("Password","Email or Password Is Incorrect. Check the details.");
+            }
+            return View(model);
         }
     }
 }

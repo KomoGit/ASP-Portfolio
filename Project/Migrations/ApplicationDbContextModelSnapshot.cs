@@ -319,11 +319,19 @@ namespace KanunWebsite.Migrations
                         .HasMaxLength(300)
                         .HasColumnType("ntext");
 
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("ProfilePicture")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("TitleId")
                         .HasColumnType("int");
+
+                    b.Property<string>("Token")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Twitter")
                         .IsRequired()

@@ -23,7 +23,7 @@ namespace KanunWebsite.Areas.Admin.Filter
             User user = _context.Users.FirstOrDefault(u => u.Token == token);
             if (user == null)
             {
-                new RedirectToRouteResult(new RouteValueDictionary(new { action = "index", controller = "login" }));
+                _ = new RedirectToRouteResult(new RouteValueDictionary(new { action = "index", controller = "login" }));
             }
             if (context.Controller is Controller controller)
             {
