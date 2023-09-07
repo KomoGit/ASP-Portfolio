@@ -12,5 +12,6 @@ namespace KanunWebsite.Areas.Admin.ViewModel
         [Required(ErrorMessage = "Cannot be empty!")]
         [DataType(DataType.Password)]
         public string? Password { get; set; }
+        public bool RememberUser { get; set; } = false;
     }
 }

@@ -9,5 +9,13 @@ namespace KanunWebsite.Areas.Admin.Controllers
         {
             return View();
         }
+        public IActionResult Users()
+        {
+            return View();
+        }
+        public IActionResult Blog()
+        {
+            return View();
+        }
     }
 }

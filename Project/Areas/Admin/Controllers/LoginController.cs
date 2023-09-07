@@ -19,12 +19,17 @@ namespace KanunWebsite.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            if (Request.Cookies["token"]  != null)
+            {
+                return RedirectToAction("dashboard", "admin");
+            }
             return View();
         }
         [HttpPost]
-        public IActionResult Login(VMLogin model)
+        public IActionResult Index(VMLogin model)
         {
-            if(ModelState.IsValid)
+            Console.WriteLine("Login works");
+            if (ModelState.IsValid)
             {
                 User user = _context.Users.FirstOrDefault(u => u.Email == model.Email);
                 if (user != null && Crypto.VerifyHashedPassword(user.Password,model.Password)) 
@@ -33,10 +38,10 @@ namespace KanunWebsite.Areas.Admin.Controllers
                     _context.SaveChanges();
                     Response.Cookies.Append("token",user.Token, new CookieOptions
                     {
-                        Expires = DateTimeOffset.Now.AddDays(24),
+                        Expires  = model.RememberUser ? DateTimeOffset.Now.AddDays(24) : null,    
                         HttpOnly = true
                     });
-                    return RedirectToAction("index","dashboard");
+                    return RedirectToAction("dashboard","admin");
                 }
                 ModelState.AddModelError("Password","Email or Password Is Incorrect. Check the details.");
             }

@@ -17,6 +17,10 @@ namespace KanunWebsite.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            if (Request.Cookies["token"] != null)
+            {
+                return RedirectToAction("dashboard", "admin");
+            }
             return View();
         }
         [HttpPost]
@@ -35,6 +39,8 @@ namespace KanunWebsite.Areas.Admin.Controllers
                     Email = model.Email,
                     Password = Crypto.HashPassword(model.Password),
                     Token = Guid.NewGuid().ToString(),
+                    BannerPicture = "team-404.png",
+                    ProfilePicture = "team-404.png",
                     TitleId = 1,
                 };
                 _context.Users.Add(user);

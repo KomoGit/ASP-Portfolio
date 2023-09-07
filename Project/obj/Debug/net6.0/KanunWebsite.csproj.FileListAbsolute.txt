@@ -887,3 +887,4 @@ D:\Personal Files\Programming Projects\C#\ASP-Portfolio\Project\obj\Debug\net6.0
 D:\Personal Files\Programming Projects\C#\ASP-Portfolio\Project\obj\Debug\net6.0\KanunWebsite.genruntimeconfig.cache
 D:\Personal Files\Programming Projects\C#\ASP-Portfolio\Project\obj\Debug\net6.0\ref\KanunWebsite.dll
 D:\Personal Files\Programming Projects\C#\ASP-Portfolio\Project\bin\Debug\net6.0\CryptoHelper.dll
+D:\Personal Files\Programming Projects\C#\ASP-Portfolio\Project\bin\Debug\net6.0\bundleconfig.json
