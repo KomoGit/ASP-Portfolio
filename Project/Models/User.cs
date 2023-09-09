@@ -52,7 +52,6 @@ namespace KanunWebsite.Models
         [MaxLength(250,ErrorMessage = "Cannot be more than 250")]
         [MinLength(6,ErrorMessage = "Cannot be more than 250")]
         public string? Password { get; set; }
-        [Required]
         public string? Token { get; set; }  
         #endregion
     }
