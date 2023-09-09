@@ -1,4 +1,5 @@
 ﻿using CryptoHelper;
+using KanunWebsite.Areas.Admin.Filter;
 using KanunWebsite.Areas.Admin.ViewModel;
 using KanunWebsite.Data;
 using KanunWebsite.Models;
@@ -9,7 +10,6 @@ namespace KanunWebsite.Areas.Admin.Controllers
     [Area("admin")]
     public class LoginController : Controller
     {
-        private User _user => RouteData.Values["loggedUser"] as User;
         private readonly ApplicationDbContext _context;
 
         public LoginController(ApplicationDbContext context)
@@ -28,7 +28,6 @@ namespace KanunWebsite.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Index(VMLogin model)
         {
-            Console.WriteLine("Login works");
             if (ModelState.IsValid)
             {
                 User user = _context.Users.FirstOrDefault(u => u.Email == model.Email);
@@ -47,5 +46,5 @@ namespace KanunWebsite.Areas.Admin.Controllers
             }
             return View(model);
         }
-    }
+           }
 }
