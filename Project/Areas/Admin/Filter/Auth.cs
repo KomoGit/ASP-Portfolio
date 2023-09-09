@@ -18,12 +18,12 @@ namespace KanunWebsite.Areas.Admin.Filter
         {
             if(!context.HttpContext.Request.Cookies.TryGetValue("token", out string token))
             {
-                context.Result = new RedirectToRouteResult(new RouteValueDictionary(new { action = "index",controller = "login" }));
+                context.Result = new RedirectToRouteResult(new RouteValueDictionary(new { action = "login",controller = "admin" }));
             }
             User user = _context.Users.FirstOrDefault(u => u.Token == token);
             if (user == null)
             {
-                _ = new RedirectToRouteResult(new RouteValueDictionary(new { action = "index", controller = "login" }));
+                _ = new RedirectToRouteResult(new RouteValueDictionary(new { action = "login", controller = "admin" }));
             }
             if (context.Controller is Controller controller)
             {
