@@ -1,4 +1,5 @@
-﻿@model VMUser
+﻿@using KanunWebsite.Areas.Admin.ViewModelAdmin;
+@model VMAdminBase
 <div id="wrapper">
     <!-- Sidebar -->
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
@@ -87,7 +88,7 @@
 
         <!-- Heading -->
         <div class="sidebar-heading">
-            Administration
+            Admin
         </div>
 
         <!-- Nav Item - Pages Collapse Menu -->
@@ -110,19 +111,33 @@
                 </div>
             </div>
         </li>
-        <!-- Nav Item - Tables -->
+        <!-- Nav Item - Blogs -->
         <li class="nav-item">
-            <a class="nav-link" href="/admin/dashboard/blog">
-                <i class="fas fa-fw fa-table"></i>
+            <a class="nav-link" href="/admin/blog">
+                <i class="fas fa-fw fa-book"></i>
                 <span>Blogs</span>
             </a>
         </li>
 
-        <!-- Nav Item - Charts -->
+        <!-- Nav Item - Users -->
         <li class="nav-item">
-            <a class="nav-link" href="/admin/dashboard/users">
-                <i class="fas fa-fw fa-chart-area"></i>
+            <a class="nav-link" href="/admin/user">
+                <i class="fas fa-fw fa-user"></i>
                 <span>Users</span>
+            </a>
+        </li>
+        <!-- Nav Item - Newsletter -->
+        <li class="nav-item">
+            <a class="nav-link" href="/admin/newsletter/">
+                <i class="fas fa-fw fa-envelope"></i>
+                <span>Newsletter</span>
+            </a>
+        </li>
+        <!-- Nav Item - Leads -->
+        <li class="nav-item">
+            <a class="nav-link" href="/admin/newsletter/">
+                <i class="fas fa-fw fa-money-bill"></i>
+                <span>Leads</span>
             </a>
         </li>
 

@@ -1,4 +1,6 @@
-﻿@{
+﻿@using KanunWebsite.Areas.Admin.ViewModelAdmin;
+@model VMAdminBlog
+@{
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
 <!DOCTYPE html>
@@ -12,7 +14,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Tables</title>
+    <title>Admin Dashboard - Blog</title>
 
     <!-- Custom fonts for this template -->
     <link href="/Admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -77,27 +79,58 @@
                                         </tr>
                                     </tfoot>
                                     <tbody>
-                                        <tr>
-                                            <td>McDonald's Magnum Opus : The McRib</td>
-                                            <td>Johnny Sins</td>
-                                            <td>2011/04/25</td>
-                                            <td>Business Law</td>
-                                            <td>False</td>
-                                            <td>
-                                                <a href="http://example.com">
-                                                    <div style="height:100%;width:100%">
-                                                        Edit
-                                                    </div>
-                                                </a>
-                                            </td>
-                                            <td>
-                                                <a href="http://example.com">
-                                                    <div style="height:100%;width:100%">
-                                                        Delete
-                                                    </div>
-                                                </a>
-                                            </td>
-                                        </tr>
+                                        @foreach (Blog? blog in Model.Blogs)
+                                        {
+                                            <tr>
+                                                @* <td>@blog.Title</td> *@
+                                                <td>
+                                                    <a href="/blog/details/@blog.Id">
+                                                        <div style="height:100%;width:100%">
+                                                            @blog.Title
+                                                        </div>
+                                                    </a>
+                                                </td>
+                                                <td>@blog.Publisher.FullName</td>
+                                                <td>@blog.PublishDate.ToString("dd-MM-yyyy")</td>
+                                                <td>@blog.Category.Name</td>
+                                                <td>@blog.IsHidden</td>
+                                                <td>
+                                                    <a href="http://example.com">
+                                                        <div style="height:100%;width:100%">
+                                                            Edit
+                                                        </div>
+                                                    </a>
+                                                </td>
+                                                <td>
+                                                    <a href="/admin/blog/delete/@blog.Id">
+                                                        <div style="height:100%;width:100%">
+                                                            Delete
+                                                        </div>
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        }
+                                        @* <tr>
+                                        <td>McDonald's Magnum Opus : The McRib</td>
+                                        <td>Johnny Sins</td>
+                                        <td>2011/04/25</td>
+                                        <td>Business Law</td>
+                                        <td>False</td>
+                                        <td>
+                                        <a href="http://example.com">
+                                        <div style="height:100%;width:100%">
+                                        Edit
+                                        </div>
+                                        </a>
+                                        </td>
+                                        <td>
+                                        <a href="http://example.com">
+                                        <div style="height:100%;width:100%">
+                                        Delete
+                                        </div>
+                                        </a>
+                                        </td>
+                                        </tr> *@
                                     </tbody>
                                 </table>
                             </div>
