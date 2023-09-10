@@ -336,7 +336,7 @@
                             <i class="fa fa-quote-right"></i>
                             <div class="row align-items-center">
                                 <div class="col-3">
-                                    <img src="img/@clients.Image" alt="">
+                                    <img src="/Site/img/@clients.Image" alt="">
                                 </div>
                                 <div class="col-9">
                                     <h2>@clients.Fullname</h2>
@@ -367,11 +367,11 @@
                         @foreach (Blog blog in Model.Blogs)
                         {
                             <div class="blog-item">
-                                <img src="img/@blog.PreviewImage" alt="Blog">
+                                <img src="Site/img/@blog.PreviewImage" alt="Blog">
                                 <h3>@blog.Title</h3>
                                 <div class="meta">
                                     <i class="fa fa-list-alt"></i>
-                                    <a href="">@blog.?Category.Name</a>
+                                    <a href="">@blog.Category.Name</a>
                                     <i class="fa fa-calendar-alt"></i>
                                     <p>@blog.PublishDate.ToString("dd-MM-yyyy")</p>
                                 </div>
