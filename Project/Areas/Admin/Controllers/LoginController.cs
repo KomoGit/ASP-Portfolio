@@ -46,5 +46,5 @@ namespace KanunWebsite.Areas.Admin.Controllers
             }
             return View(model);
         }
-           }
+    }
 }
