@@ -45,7 +45,7 @@
                     <!-- Page Heading -->
                     <h1 class="h3 mb-2 text-gray-800">Blogs</h1>
                     <p class="mb-4">
-                        <a target="_blank" href="https://datatables.net">Create new blog</a>
+                        <a target="_blank" href="/admin/blog/create">Create new blog</a>
                     </p>
 
                     <!-- DataTales Example -->
@@ -82,7 +82,6 @@
                                         @foreach (Blog? blog in Model.Blogs)
                                         {
                                             <tr>
-                                                @* <td>@blog.Title</td> *@
                                                 <td>
                                                     <a href="/blog/details/@blog.Id">
                                                         <div style="height:100%;width:100%">
@@ -110,27 +109,6 @@
                                                 </td>
                                             </tr>
                                         }
-                                        @* <tr>
-                                        <td>McDonald's Magnum Opus : The McRib</td>
-                                        <td>Johnny Sins</td>
-                                        <td>2011/04/25</td>
-                                        <td>Business Law</td>
-                                        <td>False</td>
-                                        <td>
-                                        <a href="http://example.com">
-                                        <div style="height:100%;width:100%">
-                                        Edit
-                                        </div>
-                                        </a>
-                                        </td>
-                                        <td>
-                                        <a href="http://example.com">
-                                        <div style="height:100%;width:100%">
-                                        Delete
-                                        </div>
-                                        </a>
-                                        </td>
-                                        </tr> *@
                                     </tbody>
                                 </table>
                             </div>
