@@ -44,14 +44,12 @@ namespace KanunWebsite.Migrations
                         .HasColumnType("ntext");
 
                     b.Property<string>("FullImage")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsHidden")
                         .HasColumnType("bit");
 
                     b.Property<string>("PreviewImage")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("PublishDate")

@@ -1,7 +1,7 @@
 ﻿using KanunWebsite.Areas.Admin.Filter;
+using KanunWebsite.Areas.Admin.ViewModelAdmin;
 using KanunWebsite.Data;
 using KanunWebsite.Models;
-using KanunWebsite.Models.Blog;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KanunWebsite.Areas.Admin.Controllers
@@ -18,15 +18,27 @@ namespace KanunWebsite.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            return View();
+            User? usr = ReturnUserData();
+            VMAdminNewsletter newsletter = new()
+            {
+                Fullname = usr.FullName,
+                Token = usr.Token,
+                Email = usr.Email,
+                ProfileImage = usr.ProfilePicture,
+                Subscribers = _context.Subscribers.ToList()
+            };
+            return View(newsletter);
         }
-        [HttpDelete]
         public IActionResult Delete(int id)
         {
             NewsletterSubscriber? subscriber = _context.Subscribers.Find(id);
             _context.Subscribers.Remove(subscriber);
             _context.SaveChanges();
             return RedirectToAction("newsletter", "admin");
+        }
+        private User? ReturnUserData()
+        {
+            return _context.Users.Where(u => u.Token == Request.Cookies["token"]).FirstOrDefault();
         }
     }
 }
