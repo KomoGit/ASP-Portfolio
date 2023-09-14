@@ -4,6 +4,7 @@ using KanunWebsite.Data;
 using KanunWebsite.Models;
 using KanunWebsite.Models.Blog;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace KanunWebsite.Areas.Admin.Controllers
 {
@@ -12,6 +13,7 @@ namespace KanunWebsite.Areas.Admin.Controllers
     [TypeFilter(typeof(Auth))]
     public class BlogController : Controller
     {
+        private Blog insertBlog = new Blog();
         private readonly ApplicationDbContext _context;
         public BlogController(ApplicationDbContext context)
         {
@@ -42,19 +44,28 @@ namespace KanunWebsite.Areas.Admin.Controllers
                 Token = usr.Token,
                 Email = usr.Email,
                 ProfileImage = usr.ProfilePicture,
-                Categories = _context.Categories?.ToList(),
+                Categories = _context.Categories.ToList(),
             };
             return View(data);
         }
         [HttpPost]
-        public IActionResult Create(VMAdminBase blog)
+        public IActionResult Create(VMAdminCreateBlog blog)
         {
+            insertBlog.Title = blog.Title;
+            insertBlog.Description = blog.Description;
+            insertBlog.BodyText = blog.BodyText;
+            insertBlog.PublishDate = blog.PublishDate;
+            insertBlog.UserId = ReturnUserData().Id;
+            insertBlog.CategoryId = blog.CategoryId;
+            insertBlog.PreviewImage = "XD";
+            insertBlog.FullImage = "LOL";
             if (ModelState.IsValid)
-            {   
-                _context.Blogs.Add(blog.NewBlogContent);
+            {
+                _context.Blogs.Add(insertBlog);
                 _context.SaveChanges();
+                return RedirectToAction("dashboard", "admin");
             }
-            return RedirectToAction("dashboard", "admin");
+            return View(blog);
         }
 
         //[HttpPut("id")]
@@ -68,12 +79,22 @@ namespace KanunWebsite.Areas.Admin.Controllers
             Blog? blog = _context.Blogs.Find(id);
             _context.Blogs.Remove(blog);
             _context.SaveChanges();
-            return RedirectToAction("blog", "admin");
+            return RedirectToAction("index", "blog");
         }
 
         private User? ReturnUserData()
         {
             return _context.Users.Where(u => u.Token == Request.Cookies["token"]).First();
+        }
+
+        private List<SelectListItem> CategoryList()
+        {
+            return _context.Categories.Select(
+            c => new SelectListItem
+            {
+                Value = c.Id.ToString(),
+                Text = c.Name
+            }).ToList();
         }
     }
 }

@@ -9,6 +9,6 @@ namespace KanunWebsite.Areas.Admin.ViewModelAdmin
         public string? Token { get; set; }
         public string? Email { get; set; }
         public List<Category>? Categories { get; set; }
-        public Blog? NewBlogContent { get; set; }
+        //public Blog? NewBlogContent { get; set; }
     }
 }
