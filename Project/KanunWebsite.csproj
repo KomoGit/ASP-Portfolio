@@ -36,6 +36,7 @@
     <Folder Include="Views\Shared\" />
     <Folder Include="wwwroot\Admin\" />
     <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\Uploads\" />
   </ItemGroup>
 
 </Project>

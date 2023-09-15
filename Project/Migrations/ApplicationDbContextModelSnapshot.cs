@@ -69,7 +69,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Blogs");
+                    b.ToTable("Blogs", (string)null);
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.Blog.Category", b =>
@@ -87,7 +87,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.ContactDetails", b =>
@@ -135,7 +135,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ContactDetails");
+                    b.ToTable("ContactDetails", (string)null);
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.ContactInquiry", b =>
@@ -171,7 +171,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Inquiries");
+                    b.ToTable("Inquiries", (string)null);
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.FAQ", b =>
@@ -203,7 +203,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("FAQs");
+                    b.ToTable("FAQs", (string)null);
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.NewsletterSubscriber", b =>
@@ -222,7 +222,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Subscribers");
+                    b.ToTable("Subscribers", (string)null);
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.Testimonial", b =>
@@ -255,7 +255,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Testimonials");
+                    b.ToTable("Testimonials", (string)null);
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.Title", b =>
@@ -273,7 +273,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Titles");
+                    b.ToTable("Titles", (string)null);
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.User", b =>
@@ -335,7 +335,7 @@ namespace KanunWebsite.Migrations
 
                     b.HasIndex("TitleId");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("KanunWebsite.Models.Blog.Blog", b =>
