@@ -1,7 +1,9 @@
+using KanunWebsite.Areas.Admin.Libraries;
+using KanunWebsite.Areas.Admin.Libraries.Repository;
 using KanunWebsite.Data;
 using Microsoft.EntityFrameworkCore;
 
-//var builder = WebApplication.CreateBuilder(args);
+
 
 WebApplicationBuilder? builder = WebApplication.CreateBuilder(args); //was var
 builder.Services.AddDbContext<ApplicationDbContext>(options =>
@@ -9,6 +11,7 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddSingleton<IFileManager, FileManager>();
 
 WebApplication? app = builder.Build(); //was var
 
@@ -22,9 +25,7 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapControllerRoute(
