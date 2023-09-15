@@ -1,10 +1,11 @@
 ﻿using KanunWebsite.Areas.Admin.Filter;
+using KanunWebsite.Areas.Admin.Libraries;
+using KanunWebsite.Areas.Admin.Libraries.Repository;
 using KanunWebsite.Areas.Admin.ViewModelAdmin;
 using KanunWebsite.Data;
 using KanunWebsite.Models;
 using KanunWebsite.Models.Blog;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace KanunWebsite.Areas.Admin.Controllers
 {
@@ -13,8 +14,10 @@ namespace KanunWebsite.Areas.Admin.Controllers
     [TypeFilter(typeof(Auth))]
     public class BlogController : Controller
     {
-        private Blog insertBlog = new Blog();
+        private readonly Blog InsertBlog = new();
         private readonly ApplicationDbContext _context;
+        private readonly FileManager _fileManager = new();
+        //private readonly IFileManager _fileManager;
         public BlogController(ApplicationDbContext context)
         {
             _context = context;
@@ -51,17 +54,17 @@ namespace KanunWebsite.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Create(VMAdminCreateBlog blog)
         {
-            insertBlog.Title = blog.Title;
-            insertBlog.Description = blog.Description;
-            insertBlog.BodyText = blog.BodyText;
-            insertBlog.PublishDate = blog.PublishDate;
-            insertBlog.UserId = ReturnUserData().Id;
-            insertBlog.CategoryId = blog.CategoryId;
-            insertBlog.PreviewImage = "XD";
-            insertBlog.FullImage = "LOL";
+            InsertBlog.Title = blog.Title;
+            InsertBlog.Description = blog.Description;
+            InsertBlog.BodyText = blog.BodyText;
+            InsertBlog.PublishDate = blog.PublishDate;
+            InsertBlog.UserId = ReturnUserData().Id;
+            InsertBlog.CategoryId = blog.CategoryId;
+            InsertBlog.PreviewImage = Upload(blog.PreviewImageFile);
+            InsertBlog.FullImage = "LOL";
             if (ModelState.IsValid)
             {
-                _context.Blogs.Add(insertBlog);
+                _context.Blogs.Add(InsertBlog);
                 _context.SaveChanges();
                 return RedirectToAction("dashboard", "admin");
             }
@@ -82,19 +85,15 @@ namespace KanunWebsite.Areas.Admin.Controllers
             return RedirectToAction("index", "blog");
         }
 
+        private string Upload(IFormFile file) 
+        {
+            if (file == null) throw new Exception("Cannot upload null file");
+            return _fileManager.Upload(file);
+        }
+
         private User? ReturnUserData()
         {
             return _context.Users.Where(u => u.Token == Request.Cookies["token"]).First();
-        }
-
-        private List<SelectListItem> CategoryList()
-        {
-            return _context.Categories.Select(
-            c => new SelectListItem
-            {
-                Value = c.Id.ToString(),
-                Text = c.Name
-            }).ToList();
         }
     }
 }

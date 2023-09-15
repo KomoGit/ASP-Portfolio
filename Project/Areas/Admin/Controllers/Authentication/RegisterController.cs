@@ -4,7 +4,7 @@ using KanunWebsite.Data;
 using KanunWebsite.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace KanunWebsite.Areas.Admin.Controllers
+namespace KanunWebsite.Areas.Admin.Controllers.Authentication
 {
     [Area("admin")]
     public class RegisterController : Controller
@@ -29,7 +29,7 @@ namespace KanunWebsite.Areas.Admin.Controllers
             Console.WriteLine("Create method working!");
             if (_context.Users.Any(u => u.Email == model.Email))
             {
-                ModelState.AddModelError("Email","The email is already in use");
+                ModelState.AddModelError("Email", "The email is already in use");
             }
             if (ModelState.IsValid)
             {

@@ -5,7 +5,7 @@ using KanunWebsite.Data;
 using KanunWebsite.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace KanunWebsite.Areas.Admin.Controllers
+namespace KanunWebsite.Areas.Admin.Controllers.Authentication
 {
     [Area("admin")]
     public class LoginController : Controller
@@ -19,7 +19,7 @@ namespace KanunWebsite.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Index()
         {
-            if (Request.Cookies["token"]  != null)
+            if (Request.Cookies["token"] != null)
             {
                 return RedirectToAction("dashboard", "admin");
             }
@@ -31,18 +31,18 @@ namespace KanunWebsite.Areas.Admin.Controllers
             if (ModelState.IsValid)
             {
                 User user = _context.Users.FirstOrDefault(u => u.Email == model.Email);
-                if (user != null && Crypto.VerifyHashedPassword(user.Password,model.Password)) 
+                if (user != null && Crypto.VerifyHashedPassword(user.Password, model.Password))
                 {
                     user.Token = Guid.NewGuid().ToString();
                     _context.SaveChanges();
-                    Response.Cookies.Append("token",user.Token, new CookieOptions
+                    Response.Cookies.Append("token", user.Token, new CookieOptions
                     {
-                        Expires  = model.RememberUser ? DateTimeOffset.Now.AddDays(24) : null,    
+                        Expires = model.RememberUser ? DateTimeOffset.Now.AddDays(24) : null,
                         HttpOnly = true
                     });
-                    return RedirectToAction("dashboard","admin");
+                    return RedirectToAction("dashboard", "admin");
                 }
-                ModelState.AddModelError("Password","Email or Password Is Incorrect. Check the details.");
+                ModelState.AddModelError("Password", "Email or Password Is Incorrect. Check the details.");
             }
             return View(model);
         }

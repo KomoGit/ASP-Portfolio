@@ -4,7 +4,7 @@ using KanunWebsite.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace KanunWebsite.Areas.Admin.Controllers
+namespace KanunWebsite.Areas.Admin.Controllers.Authentication
 {
     [Area("admin")]
     public class LogoutController : Controller
@@ -23,7 +23,7 @@ namespace KanunWebsite.Areas.Admin.Controllers
             _user.Token = null;
             _context.SaveChanges();
             Response.Cookies.Delete("token");
-            return RedirectToAction("login","admin");
+            return RedirectToAction("login", "admin");
         }
     }
 }
