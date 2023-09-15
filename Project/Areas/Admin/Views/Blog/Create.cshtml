@@ -129,13 +129,14 @@
                                 </select>
                             </div>
                             <div class="form-group">
-                                <label for="previewImage">Preview Image:</label>
-                                <input type="file" id="previewImage" name="previewImage" accept="image/*" required>
+                                <label>Preview Image:</label>
+                                <input asp-for="PreviewImageFile" type="file" accept="image/*"required>
+                                <span asp-validation-for="PreviewImageFile" class="text-danger"></span>
                             </div>
-                            <div class="form-group"> 
+@*                             <div class="form-group"> 
                                 <label for="fullImage">Full Image:</label>
                                 <input type="file" id="fullImage" name="fullImage" accept="image/*" required>
-                            </div>
+                            </div> *@
                             <div class="form-group-checkbox">
                                 <label asp-for="IsHidden" class="checkbox-label">
                                     <input type="checkbox" id="draft" name="draft">

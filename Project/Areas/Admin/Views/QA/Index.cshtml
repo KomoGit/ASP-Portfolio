@@ -1,5 +1,5 @@
 ﻿@using KanunWebsite.Areas.Admin.ViewModelAdmin;
-@model VMAdminLead
+@model VMAdminQA
 @{
     Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
 }
@@ -71,7 +71,7 @@
                                         </tr>
                                     </tfoot>
                                     <tbody>
-                                        @foreach (ContactInquiry? lead in Model.Leads)
+                                        @* @foreach (ContactInquiry? lead in Model.Leads)
                                         {
                                             <tr>
                                                 <td>@lead.Fullname</td>
@@ -93,7 +93,7 @@
                                                     </a>
                                                 </td>
                                             </tr>
-                                        }
+                                        } *@
                                     </tbody>
                                 </table>
                             </div>
