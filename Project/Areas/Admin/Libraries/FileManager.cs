@@ -22,24 +22,22 @@ namespace KanunWebsite.Areas.Admin.Libraries
 
         public string Upload(IFormFile file, string fileName = "")
         {
-            string[] list = file.Name.Split('.');
+            string[] list = file.FileName.Split('.');
             string newName;
             if (fileName == "")
             {
-                newName = $"{Guid.NewGuid()}.${list[^1]}";
+                newName = $"{Guid.NewGuid()}.{list[^1]}";
             }
             else 
             {
                 newName = $"{fileName}.{list[^1]}";
             }
             var writePath = Path.Combine(Directory.GetCurrentDirectory(), _ROOT, _PATH);
-            if (!Directory.Exists(writePath))
-            {
-                Directory.CreateDirectory(writePath);
-                var path = Path.Combine(writePath,newName);
-                using var stream = new FileStream(path, FileMode.Create);
-                file.CopyTo(stream);
-            }
+            if (!Directory.Exists(writePath))      
+            Directory.CreateDirectory(writePath);
+            var path = Path.Combine(writePath,newName);
+            using var stream = new FileStream(path, FileMode.Create);
+            file.CopyTo(stream);
             return newName;
         }
     }

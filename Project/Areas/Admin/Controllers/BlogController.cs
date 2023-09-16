@@ -16,10 +16,10 @@ namespace KanunWebsite.Areas.Admin.Controllers
     {
         private readonly Blog InsertBlog = new();
         private readonly ApplicationDbContext _context;
-        private readonly FileManager _fileManager = new();
-        //private readonly IFileManager _fileManager;
-        public BlogController(ApplicationDbContext context)
+        private readonly IFileManager _fileManager;
+        public BlogController(ApplicationDbContext context,IFileManager fileManager)
         {
+            _fileManager = fileManager;
             _context = context;
         }
         [HttpGet]
@@ -32,7 +32,7 @@ namespace KanunWebsite.Areas.Admin.Controllers
                 Token = usr.Token,
                 Email = usr.Email,
                 ProfileImage = usr.ProfilePicture,
-                Blogs = _context.Blogs?.Where(b => !b.IsHidden && b.Publisher.Token == usr.Token).OrderByDescending(b => b.PublishDate).ToList(),
+                Blogs = _context.Blogs?.Where(b => b.Publisher.Token == usr.Token).OrderByDescending(b => b.PublishDate).ToList(),
                 Categories = _context.Categories?.ToList(),
             };
             return View(dashboard);
@@ -61,17 +61,32 @@ namespace KanunWebsite.Areas.Admin.Controllers
             InsertBlog.UserId = ReturnUserData().Id;
             InsertBlog.CategoryId = blog.CategoryId;
             InsertBlog.PreviewImage = Upload(blog.PreviewImageFile);
-            InsertBlog.FullImage = "LOL";
+            InsertBlog.FullImage = Upload(blog.FullImageFile);
+            InsertBlog.IsHidden = blog.IsHidden;
             if (ModelState.IsValid)
             {
                 _context.Blogs.Add(InsertBlog);
                 _context.SaveChanges();
-                return RedirectToAction("dashboard", "admin");
+                return RedirectToAction("index", "blog");
             }
-            return View(blog);
+            return View();
+        }
+        [HttpGet]
+        public IActionResult Edit()
+        {
+            User? usr = ReturnUserData();
+            VMAdminCreateBlog data = new()
+            {
+                Fullname = usr.FullName,
+                Token = usr.Token,
+                Email = usr.Email,
+                ProfileImage = usr.ProfilePicture,
+                Categories = _context.Categories.ToList(),
+            };
+            return View(data);
         }
 
-        //[HttpPut("id")]
+        [HttpPut("id")]
         public IActionResult Edit(int id)
         {
             throw new NotImplementedException();
