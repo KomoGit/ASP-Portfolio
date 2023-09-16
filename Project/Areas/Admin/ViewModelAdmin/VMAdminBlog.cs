@@ -34,10 +34,13 @@ namespace KanunWebsite.Areas.Admin.ViewModelAdmin
         public string? BodyText { get; set; }
         #endregion
         #region Image
-        public string? FullImage { get; set; } = "single.jpg";//For the page.
-        public string? PreviewImage { get; set; } = "blog-1.jpg"; //For the home page.
+        public string? FullImage { get; set; } //For the page.
+        [DataType(DataType.Upload)]
+        public IFormFile? FullImageFile { get; set; }
+        public string? PreviewImage { get; set; } //For the home page.
         [DataType(DataType.Upload)]
         public IFormFile? PreviewImageFile { get; set; }
+        
         #endregion
         #region Metadata
         public int UserId { get; set; }
