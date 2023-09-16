@@ -128,18 +128,21 @@
                                     }
                                 </select>
                             </div>
+                            <p>Must be 500 x 300 pixels*</p>
                             <div class="form-group">
                                 <label>Preview Image:</label>
-                                <input asp-for="PreviewImageFile" type="file" accept="image/*"required>
+                                <input asp-for="PreviewImageFile" type="file" accept="image/*" required>
                                 <span asp-validation-for="PreviewImageFile" class="text-danger"></span>
                             </div>
-@*                             <div class="form-group"> 
-                                <label for="fullImage">Full Image:</label>
-                                <input type="file" id="fullImage" name="fullImage" accept="image/*" required>
-                            </div> *@
+                            <p>Must be 1366 x 625 pixels*</p>
+                            <div class="form-group">
+                                <label>Blog Image:</label>
+                                <input asp-for="FullImageFile" type="file" accept="image/*" required>
+                                <span asp-validation-for="FullImageFile" class="text-danger"></span>
+                            </div>
                             <div class="form-group-checkbox">
                                 <label asp-for="IsHidden" class="checkbox-label">
-                                    <input type="checkbox" id="draft" name="draft">
+                                    <input asp-for="IsHidden" type="checkbox" id="draft">
                                     Draft
                                 </label>
                             </div>
