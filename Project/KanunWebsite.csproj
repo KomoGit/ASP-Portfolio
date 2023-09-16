@@ -7,14 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Utilities\ResourceChecker" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Compile Include="Utilities\ResourceChecker" />
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="CryptoHelper" Version="3.0.2" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.10">
@@ -35,7 +27,6 @@
     <Folder Include="Models\" />
     <Folder Include="Views\Shared\" />
     <Folder Include="wwwroot\Admin\" />
-    <Folder Include="wwwroot\images\" />
     <Folder Include="wwwroot\Uploads\" />
   </ItemGroup>
 
