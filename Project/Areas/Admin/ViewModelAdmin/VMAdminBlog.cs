@@ -49,4 +49,15 @@ namespace KanunWebsite.Areas.Admin.ViewModelAdmin
         public bool IsHidden { get; set; } = false;
         #endregion
     }
+    public class VMAdminEditBlog:VMAdminBase
+    {
+        public Blog? Blog { get; set; }
+        public string? FullImage { get; set; } //For the page.
+        [DataType(DataType.Upload)]
+        public IFormFile? FullImageFile { get; set; }
+        public string? PreviewImage { get; set; } //For the home page.
+        [DataType(DataType.Upload)]
+        public IFormFile? PreviewImageFile { get; set; }
+
+    }
 }

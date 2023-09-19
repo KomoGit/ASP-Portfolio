@@ -6,6 +6,7 @@ using KanunWebsite.Data;
 using KanunWebsite.Models;
 using KanunWebsite.Models.Blog;
 using Microsoft.AspNetCore.Mvc;
+using System.Reflection.Metadata;
 
 namespace KanunWebsite.Areas.Admin.Controllers
 {
@@ -65,31 +66,48 @@ namespace KanunWebsite.Areas.Admin.Controllers
             InsertBlog.IsHidden = blog.IsHidden;
             if (ModelState.IsValid)
             {
-                _context.Blogs.Add(InsertBlog);
                 _context.SaveChanges();
                 return RedirectToAction("index", "blog");
             }
             return View();
         }
-        [HttpGet]
-        public IActionResult Edit()
+        [HttpGet("{id}")]
+        public IActionResult Edit(int id)
         {
             User? usr = ReturnUserData();
-            VMAdminCreateBlog data = new()
+            VMAdminEditBlog data = new()
             {
                 Fullname = usr.FullName,
                 Token = usr.Token,
                 Email = usr.Email,
                 ProfileImage = usr.ProfilePicture,
                 Categories = _context.Categories.ToList(),
+                Blog = _context.Blogs.Find(id)              
             };
             return View(data);
         }
 
-        [HttpPut("id")]
-        public IActionResult Edit(int id)
+        [HttpPut("{id}")]
+        public IActionResult Edit(int id, VMAdminEditBlog blog)
         {
-            throw new NotImplementedException();
+            Blog? UpdatedBlog = _context.Blogs.Find(id);
+            UpdatedBlog.Title = blog.Blog.Title;
+            UpdatedBlog.Description = blog.Blog.Description;
+            UpdatedBlog.BodyText = blog.Blog.BodyText;
+            UpdatedBlog.PublishDate = blog.Blog.PublishDate;
+            UpdatedBlog.CategoryId = blog.Blog.CategoryId;
+            UpdatedBlog.IsHidden = blog.Blog.IsHidden;
+            if (blog.PreviewImage == null || blog.FullImage == null)
+            {
+                UpdatedBlog.PreviewImage = Upload(blog.PreviewImageFile);
+                UpdatedBlog.FullImage = Upload(blog.FullImageFile);
+            }              
+            if (ModelState.IsValid)
+            {
+                _context.SaveChanges();
+                return RedirectToAction("index", "blog");
+            }
+            return View();
         }
 
         public IActionResult Delete(int id)
