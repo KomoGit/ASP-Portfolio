@@ -1,5 +1,7 @@
 ﻿using KanunWebsite.Areas.Admin.Filter;
+using KanunWebsite.Areas.Admin.ViewModelAdmin;
 using KanunWebsite.Data;
+using KanunWebsite.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace KanunWebsite.Areas.Admin.Controllers
@@ -15,9 +17,24 @@ namespace KanunWebsite.Areas.Admin.Controllers
         {
             _context = context;
         }
+        [HttpGet]
         public IActionResult Index()
         {
-            return View();
+            User? usr = ReturnUserData();
+            VMAdminTestimonial data = new()
+            {
+                Fullname = usr.FullName,
+                Token = usr.Token,
+                Email = usr.Email,
+                ProfileImage = usr.ProfilePicture,
+                Testimonials = _context.Testimonials.ToList()
+            };
+            return View(data);
+        }
+
+        private User? ReturnUserData()
+        {
+            return _context.Users.Where(u => u.Token == Request.Cookies["token"]).First();
         }
     }
 }
