@@ -102,17 +102,12 @@ namespace KanunWebsite.Areas.Admin.Controllers
             BlogModel.BodyText = ViewModel.BodyText;
             BlogModel.CategoryId = ViewModel.CategoryId;
             BlogModel.IsHidden = ViewModel.IsHidden;
+            //Redundancy, the BlogModel Images will never be null as they are required.
             try
             {
-                if (BlogModel.PreviewImage != null)
-                {
-                    _fileManager.Delete(BlogModel.PreviewImage);
-                }
+                _fileManager.Delete(BlogModel.PreviewImage);
                 BlogModel.PreviewImage = Upload(ViewModel.PreviewImageFile);
-                if (BlogModel.FullImage != null)
-                {
-                    _fileManager.Delete(BlogModel.FullImage);
-                }
+                _fileManager.Delete(BlogModel.FullImage);
                 BlogModel.FullImage = Upload(ViewModel.FullImageFile);
             }
             catch(Exception e)
