@@ -6,6 +6,7 @@ using KanunWebsite.Data;
 using KanunWebsite.Models;
 using KanunWebsite.Models.Blog;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using System.Reflection.Metadata;
 
 namespace KanunWebsite.Areas.Admin.Controllers
@@ -23,6 +24,7 @@ namespace KanunWebsite.Areas.Admin.Controllers
             _fileManager = fileManager;
             _context = context;
         }
+
         [HttpGet]
         public IActionResult Index()
         {
@@ -55,6 +57,7 @@ namespace KanunWebsite.Areas.Admin.Controllers
         [HttpPost]
         public IActionResult Create(VMAdminCreateBlog blog)
         {
+            #region Data binding
             InsertBlog.Title = blog.Title;
             InsertBlog.Description = blog.Description;
             InsertBlog.BodyText = blog.BodyText;
@@ -64,8 +67,10 @@ namespace KanunWebsite.Areas.Admin.Controllers
             InsertBlog.PreviewImage = Upload(blog.PreviewImageFile);
             InsertBlog.FullImage = Upload(blog.FullImageFile);
             InsertBlog.IsHidden = blog.IsHidden;
+            #endregion
             if (ModelState.IsValid)
             {
+                _context.Add(InsertBlog);
                 _context.SaveChanges();
                 return RedirectToAction("index", "blog");
             }
@@ -82,26 +87,39 @@ namespace KanunWebsite.Areas.Admin.Controllers
                 Email = usr.Email,
                 ProfileImage = usr.ProfilePicture,
                 Categories = _context.Categories.ToList(),
-                Blog = _context.Blogs.Find(id)              
+                CurrentBlogIteration = _context.Blogs.Find(id)              
             };
             return View(data);
         }
 
-        [HttpPut("{id}")]
-        public IActionResult Edit(int id, VMAdminEditBlog blog)
+        [HttpPost("{id}")]
+        public IActionResult Edit(int id,VMAdminEditBlog ViewModel)
         {
-            Blog? UpdatedBlog = _context.Blogs.Find(id);
-            UpdatedBlog.Title = blog.Blog.Title;
-            UpdatedBlog.Description = blog.Blog.Description;
-            UpdatedBlog.BodyText = blog.Blog.BodyText;
-            UpdatedBlog.PublishDate = blog.Blog.PublishDate;
-            UpdatedBlog.CategoryId = blog.Blog.CategoryId;
-            UpdatedBlog.IsHidden = blog.Blog.IsHidden;
-            if (blog.PreviewImage == null || blog.FullImage == null)
+            Blog? BlogModel = _context.Blogs.FirstOrDefault(b => b.Id == id);
+            #region Data Binding
+            BlogModel.Title = ViewModel.Title;
+            BlogModel.Description = ViewModel.Description;
+            BlogModel.BodyText = ViewModel.BodyText;
+            BlogModel.CategoryId = ViewModel.CategoryId;
+            BlogModel.IsHidden = ViewModel.IsHidden;
+            try
             {
-                UpdatedBlog.PreviewImage = Upload(blog.PreviewImageFile);
-                UpdatedBlog.FullImage = Upload(blog.FullImageFile);
-            }              
+                if (BlogModel.PreviewImage != null)
+                {
+                    _fileManager.Delete(BlogModel.PreviewImage);
+                }
+                BlogModel.PreviewImage = Upload(ViewModel.PreviewImageFile);
+                if (BlogModel.FullImage != null)
+                {
+                    _fileManager.Delete(BlogModel.FullImage);
+                }
+                BlogModel.FullImage = Upload(ViewModel.FullImageFile);
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            #endregion
             if (ModelState.IsValid)
             {
                 _context.SaveChanges();
@@ -118,6 +136,7 @@ namespace KanunWebsite.Areas.Admin.Controllers
             return RedirectToAction("index", "blog");
         }
 
+        #region Boilerplate
         private string Upload(IFormFile file) 
         {
             if (file == null) throw new Exception("Cannot upload null file");
@@ -128,5 +147,6 @@ namespace KanunWebsite.Areas.Admin.Controllers
         {
             return _context.Users.Where(u => u.Token == Request.Cookies["token"]).First();
         }
+        #endregion
     }
 }

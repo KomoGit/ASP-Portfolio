@@ -14,7 +14,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Admin Dashboard - Create</title>
+    <title>Admin Dashboard - Edit</title>
 
     <style>
         .form-group-checkbox {
@@ -102,26 +102,26 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
                     <div class="container">
-                        <h1>Create a New Blog Post</h1>
-                        <form asp-area="admin" asp-controller="blog" asp-action="edit" method="post" enctype="multipart/form-data">
+                        <h1>Editing ID - @Model.CurrentBlogIteration.Id</h1>
+                        <form asp-area="admin" asp-controller="blog" asp-action="edit" enctype="multipart/form-data">
                             <div class="form-group">
-                                <label asp-for="@Model.Blog.Title">Title:</label>
-                                <input asp-for="@Model.Blog.Title" type="text" id="title" name="title" required>
-                                <span asp-validation-for="@Model.Blog.Title" class="text-danger"></span>
+                                <label asp-for="@Model.Title">Title:</label>
+                                <input asp-for="@Model.CurrentBlogIteration.Title" type="text" id="title" name="title" required>
+                                <span asp-validation-for="@Model.Title" class="text-danger"></span>
                             </div>
                             <div class="form-group">
-                                <label asp-for="@Model.Blog.Description">Description:</label>
-                                <input asp-for="@Model.Blog.Description" type="text" id="title" name="description" required>
-                                <span asp-validation-for="@Model.Blog.Description" class="text-danger"></span>
+                                <label asp-for="@Model.Description">Description:</label>
+                                <input asp-for="@Model.CurrentBlogIteration.Description" type="text" id="title" name="description" required>
+                                <span asp-validation-for="@Model.Description" class="text-danger"></span>
                             </div>
                             <div class="form-group">
-                                <label asp-for="@Model.Blog.BodyText">Content:</label>
-                                <textarea asp-for="@Model.Blog.BodyText" id="content" name="bodytext" rows="6" required></textarea>
-                                <span asp-validation-for="@Model.Blog.BodyText" class="text-danger"></span>
+                                <label asp-for="@Model.BodyText">Content:</label>
+                                <textarea asp-for="@Model.CurrentBlogIteration.BodyText" id="content" name="bodytext" rows="6" required></textarea>
+                                <span asp-validation-for="@Model.BodyText" class="text-danger"></span>
                             </div>
                             <div class="form-group">
                                 <label>Category:</label>
-                                <select asp-for="@Model.Blog.CategoryId" id="category" name="CategoryId" required>
+                                <select asp-for="@Model.CurrentBlogIteration.CategoryId" id="category" name="CategoryId" required>
                                     @foreach (Category cat in Model.Categories)
                                     {
                                         <option value="@cat.Id">@cat.Name</option>
@@ -141,8 +141,8 @@
                                 <span asp-validation-for="FullImageFile" class="text-danger"></span>
                             </div>
                             <div class="form-group-checkbox">
-                                <label asp-for="@Model.Blog.IsHidden" class="checkbox-label">
-                                    <input asp-for="@Model.Blog.IsHidden" type="checkbox" id="draft">
+                                <label asp-for="@Model.IsHidden" class="checkbox-label">
+                                    <input asp-for="@Model.IsHidden" type="checkbox" id="draft">
                                     Draft
                                 </label>
                             </div>
