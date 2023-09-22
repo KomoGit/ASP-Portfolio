@@ -14,7 +14,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Tables</title>
+    <title>SB Admin 2 - FAQs</title>
 
     <!-- Custom fonts for this template -->
     <link href="/Admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -42,58 +42,62 @@
                 <!-- Begin Page Content -->
                 <div class="container-fluid">
 
+                    <p class="mb-4">
+                        <a target="_blank" asp-controller="QA" asp-action="create">Post new Q&A</a>
+                    </p>
+
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Leads</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">Frequently Asked Questions</h6>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
                                 <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr>
-                                            <th>Fullname</th>
-                                            <th>Email</th>
-                                            <th>Subject</th>
-                                            <th>Receive date</th>
-                                            <th>Details</th>
+                                            <th>CardId</th>
+                                            <th>Question</th>
+                                            <th>Answer</th>
+                                            <th>IsHidden</th>
+                                            <th>Edit</th>
                                             <th>Delete</th>
                                         </tr>
                                     </thead>
                                     <tfoot>
                                         <tr>
-                                            <th>Fullname</th>
-                                            <th>Email</th>
-                                            <th>Subject</th>
-                                            <th>Receive date</th>
-                                            <th>Details</th>
+                                            <th>CardId</th>
+                                            <th>Question</th>
+                                            <th>Answer</th>
+                                            <th>IsHidden</th>
+                                            <th>Edit</th>
                                             <th>Delete</th>
                                         </tr>
                                     </tfoot>
                                     <tbody>
-                                        @* @foreach (ContactInquiry? lead in Model.Leads)
+                                        @foreach (FAQ? question in Model.Questions)
                                         {
                                             <tr>
-                                                <td>@lead.Fullname</td>
-                                                <td><a href="mailto: @lead.Email">@lead.Email</a></td>
-                                                <td>@lead.Subject</td>
-                                                <td>@lead.Date.ToString("dd-MM-yyyy")</td>
+                                                <td>@question.CardId</td>
+                                                <td>@question.Question</td>
+                                                <td>@question.Answer</td>
+                                                <td>@question.IsHidden</td>
                                                 <td>
-                                                    <a href="/admin/newsletter/details/@lead.Id">
+                                                    <a href="/admin/QA/edit/@question.Id">
                                                         <div style="height:100%;width:100%">
-                                                            Details
+                                                            Edit
                                                         </div>
                                                     </a>
                                                 </td>
                                                 <td>
-                                                    <a href="/admin/newsletter/delete/@lead.Id">
+                                                    <a asp-controller="qa" asp-action="delete" asp-route-id="@question.Id">
                                                         <div style="height:100%;width:100%">
                                                             Delete
                                                         </div>
                                                     </a>
                                                 </td>
                                             </tr>
-                                        } *@
+                                        }
                                     </tbody>
                                 </table>
                             </div>
