@@ -95,7 +95,7 @@ namespace KanunWebsite.Areas.Admin.Controllers
             TestimonialModel.IsHidden = ViewModel.IsHidden;
             try
             {
-                if(TestimonialModel.Image != string.Empty)
+                if(ViewModel.ImageFile != null)
                 {
                     _fileManager.Delete(TestimonialModel.Image);
                 }          
