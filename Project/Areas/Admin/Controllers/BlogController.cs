@@ -6,8 +6,6 @@ using KanunWebsite.Data;
 using KanunWebsite.Models;
 using KanunWebsite.Models.Blog;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
-using System.Reflection.Metadata;
 
 namespace KanunWebsite.Areas.Admin.Controllers
 {
@@ -102,7 +100,6 @@ namespace KanunWebsite.Areas.Admin.Controllers
             BlogModel.BodyText = ViewModel.BodyText;
             BlogModel.CategoryId = ViewModel.CategoryId;
             BlogModel.IsHidden = ViewModel.IsHidden;
-            //Redundancy, the BlogModel Images will never be null as they are required.
             try
             {
                 _fileManager.Delete(BlogModel.PreviewImage);
