@@ -43,15 +43,15 @@
                 <div class="container-fluid">
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Blogs</h1>
+                    @* <h1 class="h3 mb-2 text-gray-800">Blogs</h1> *@
                     <p class="mb-4">
-                        <a target="_blank" href="/admin/blog/create">Create new blog</a>
+                        <a target="_blank" href="/admin/Testimonial/create">Post new testimonial</a>
                     </p>
 
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
-                            <h6 class="m-0 font-weight-bold text-primary">Published Blogs</h6>
+                            <h6 class="m-0 font-weight-bold text-primary">Testimonials</h6>
                         </div>
                         <div class="card-body">
                             <div class="table-responsive">
@@ -90,9 +90,9 @@
                                                 <td>@test.Title</td>
                                                 <td>@test.Description</td>
                                                 <td>@test.Image</td>
-                                                @* <td>@blog.IsHidden</td> *@
+                                                <td>@test.IsHidden</td>
                                                 <td>
-                                                    <a href="http://example.com">
+                                                    <a asp-area="admin" asp-controller="Testimonial" asp-action="edit" asp-route-id="@test.Id">
                                                         <div style="height:100%;width:100%">
                                                             Edit
                                                         </div>
