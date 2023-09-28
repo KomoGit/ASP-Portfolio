@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "0QLZJXOwQnxetADg+s0qHPCb8LSY/FkF6Glsemj07rU=",
+  "Hash": "R2SLpsSHmrIVs7oaGaAJM6RkawvapNnDlGoNTREkqg8=",
   "Source": "KanunWebsite",
   "BasePath": "_content/KanunWebsite",
   "Mode": "Default",
@@ -32808,6 +32808,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Uploads\\06c21734-52aa-4fb4-bc73-5ced4c87670b.jpg"
+    },
+    {
+      "Identity": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\Uploads\\7497aa7a-af78-48f0-87e6-21462f6d7613.jpg",
+      "SourceId": "KanunWebsite",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\",
+      "BasePath": "_content/KanunWebsite",
+      "RelativePath": "Uploads/7497aa7a-af78-48f0-87e6-21462f6d7613.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\7497aa7a-af78-48f0-87e6-21462f6d7613.jpg"
     },
     {
       "Identity": "D:\\Personal Files\\Programming Projects\\C#\\ASP-Portfolio\\Project\\wwwroot\\Uploads\\b5b07a33-5c1a-4c5b-ae0a-09d92db5c66f.jpg",

@@ -244,9 +244,7 @@ namespace KanunWebsite.Migrations
                         .HasColumnType("nvarchar(120)");
 
                     b.Property<string>("Image")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("IsHidden")
                         .HasColumnType("bit");
@@ -315,6 +313,9 @@ namespace KanunWebsite.Migrations
                     b.Property<string>("LinkedIn")
                         .HasMaxLength(300)
                         .HasColumnType("ntext");
+
+                    b.Property<int>("LoginFails")
+                        .HasColumnType("int");
 
                     b.Property<string>("Password")
                         .IsRequired()
