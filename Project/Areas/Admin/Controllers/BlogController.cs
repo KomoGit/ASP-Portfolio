@@ -17,7 +17,7 @@ namespace KanunWebsite.Areas.Admin.Controllers
         private readonly Blog InsertBlog = new();
         private readonly ApplicationDbContext _context;
         private readonly IFileManager _fileManager;
-        public BlogController(ApplicationDbContext context,IFileManager fileManager)
+        public BlogController(ApplicationDbContext context, IFileManager fileManager)
         {
             _fileManager = fileManager;
             _context = context;
@@ -26,17 +26,18 @@ namespace KanunWebsite.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            VMAdminBlog data = default;
             User? usr = ReturnUserData();
-            VMAdminBlog dashboard = new()
-            {
-                Fullname = usr.FullName,
-                Token = usr.Token,
-                Email = usr.Email,
-                ProfileImage = usr.ProfilePicture,
-                Blogs = _context.Blogs?.Where(b => b.Publisher.Token == usr.Token).OrderByDescending(b => b.PublishDate).ToList(),
-                Categories = _context.Categories?.ToList(),
-            };
-            return View(dashboard);
+                data = new()
+                {
+                    Fullname = usr.FullName,
+                    Token = usr.Token,
+                    Email = usr.Email,
+                    ProfileImage = usr.ProfilePicture,
+                    Blogs = _context.Blogs?.Where(b => b.Publisher.Token == usr.Token).OrderByDescending(b => b.PublishDate).ToList(),
+                    Categories = _context.Categories?.ToList(),
+                };      
+            return View(data);
         }
         [HttpGet]
         public IActionResult Create()
@@ -85,13 +86,13 @@ namespace KanunWebsite.Areas.Admin.Controllers
                 Email = usr.Email,
                 ProfileImage = usr.ProfilePicture,
                 Categories = _context.Categories.ToList(),
-                CurrentBlogIteration = _context.Blogs.Find(id)              
+                CurrentBlogIteration = _context.Blogs.Find(id)
             };
             return View(data);
         }
 
         [HttpPost("{id}")]
-        public IActionResult Edit(int id,VMAdminEditBlog ViewModel)
+        public IActionResult Edit(int id, VMAdminEditBlog ViewModel)
         {
             Blog? BlogModel = _context.Blogs.FirstOrDefault(b => b.Id == id);
             #region Data Binding
@@ -100,16 +101,29 @@ namespace KanunWebsite.Areas.Admin.Controllers
             BlogModel.BodyText = ViewModel.BodyText;
             BlogModel.CategoryId = ViewModel.CategoryId;
             BlogModel.IsHidden = ViewModel.IsHidden;
-            try
+            if (ViewModel.PreviewImageFile != null)
             {
-                _fileManager.Delete(BlogModel.PreviewImage);
-                BlogModel.PreviewImage = Upload(ViewModel.PreviewImageFile);
-                _fileManager.Delete(BlogModel.FullImage);
-                BlogModel.FullImage = Upload(ViewModel.FullImageFile);
+                try
+                {
+                    _fileManager.Delete(BlogModel.PreviewImage);
+                    BlogModel.PreviewImage = Upload(ViewModel.PreviewImageFile);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
             }
-            catch(Exception e)
+            if (ViewModel.FullImageFile != null)
             {
-                Console.WriteLine(e.Message);
+                try
+                {
+                    _fileManager.Delete(BlogModel.FullImage);
+                    BlogModel.FullImage = Upload(ViewModel.FullImageFile);
+                }
+                catch (Exception e)
+                {
+                    Console.WriteLine(e.Message);
+                }
             }
             #endregion
             if (ModelState.IsValid)
@@ -129,7 +143,7 @@ namespace KanunWebsite.Areas.Admin.Controllers
         }
 
         #region Boilerplate
-        private string Upload(IFormFile file) 
+        private string Upload(IFormFile file)
         {
             if (file == null) throw new Exception("Cannot upload null file");
             return _fileManager.Upload(file);
