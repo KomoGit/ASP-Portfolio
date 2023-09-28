@@ -21,15 +21,15 @@ namespace KanunWebsite.Areas.Admin.Controllers
         public IActionResult Index()
         {
             User? usr = ReturnUserData();
-            VMAdminQA newsletter = new()
+            VMAdminQA data = new()
             {
                 Fullname = usr.FullName,
                 Token = usr.Token,
                 Email = usr.Email,
                 ProfileImage = usr.ProfilePicture,
-                Questions = _context.FAQs.ToList(), 
+                Questions = _context.FAQs.ToList(),
             };
-            return View(newsletter);
+            return View(data);
         }
 
         [HttpGet]
