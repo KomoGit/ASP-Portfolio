@@ -2,7 +2,6 @@
 using KanunWebsite.Data;
 using KanunWebsite.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace KanunWebsite.Areas.Admin.Controllers.Authentication
 {
@@ -20,7 +19,10 @@ namespace KanunWebsite.Areas.Admin.Controllers.Authentication
         public IActionResult Index()
         {
             User _user = RouteData.Values["loggedUser"] as User;
-            _user.Token = null;
+            if(_user != null)
+            {
+                _user.Token = null;
+            }        
             _context.SaveChanges();
             Response.Cookies.Delete("token");
             return RedirectToAction("login", "admin");
